@@ -1,0 +1,2512 @@
+{
+  "meta": {
+    "schema_name": "BrandGuideline",
+    "schema_version": "1.0.0",
+    "brand_name": "Red Bull",
+    "document": {
+      "title": "Red Bull_Brand_Guidelines_2024 final.pdf",
+      "year": "2024",
+      "source_type": "PDF",
+      "cover_asset_id": "asset_cover_slide_1",
+      "notes": "Refs are included ONLY for graphical elements (e.g., assets, logo variants, image-based examples). All non-graph fields are collapsed to plain values/arrays.",
+      "brand_book_intro": {
+        "definition": "The Brand Book is an essential document that tells us who we are, what we offer, and why we matter and where we are going.",
+        "purpose_points": [
+          "Tells a story about what we believe and offer, to help our consumers pursue their goals.",
+          "Serves as a guideline for all stakeholders in all markets to execute cohesive and effective brand assets across different channels and touchpoints."
+        ]
+      }
+    },
+    "enums": {
+      "sourceRefType": ["SLIDE"],
+      "reportType": ["BRAND_GUIDELINE"],
+      "brandArchetype": ["THE_ENABLER", "TBD"],
+      "brandValueTrait": [
+        "DYNAMIC",
+        "DETERMINED",
+        "PURPOSEFUL",
+        "FEEL_GOOD",
+        "TBD"
+      ],
+      "portfolioPlatform": ["CORE", "FLAVOR", "FUNCTIONAL", "TBD"],
+      "assetType": ["IMAGE", "FILE_LINK", "TBD"],
+      "category": ["ENERGY_DRINK", "TBD"],
+      "brandArchitectureModel": ["MASTER_BRAND_WITH_PLATFORMS", "TBD"],
+      "platformRelationship": ["PLATFORM_UNDER_MASTER", "TBD"],
+      "messagingPillar": ["BRAND_FOOTPRINT", "COMMUNICATION_IDEA", "TBD"],
+      "channelPlatform": ["INSTAGRAM", "TIKTOK", "TBD"],
+      "socialFormat": ["REELS", "STORIES", "CAROUSEL", "SHORT_VIDEO", "TBD"],
+      "governanceEvent": [
+        "NEW_CAMPAIGN_LAUNCH",
+        "NEW_PARTNER_LOCKUP",
+        "NEW_PRODUCT_EDITION",
+        "TBD"
+      ],
+      "governanceRole": ["BRAND", "LEGAL", "DESIGN", "TBD"],
+      "localizationChangeable": [
+        "COPY_LANGUAGE",
+        "LOCAL_REGULATORY_DISCLAIMERS",
+        "TBD"
+      ],
+      "localizationNotChangeable": [
+        "PRIMARY_LOGO_CONSTRUCTION",
+        "CORE_BRAND_FOOTPRINT_ENERGY_WITH_PASSION",
+        "TBD"
+      ]
+    }
+  },
+  "reportType": "BRAND_GUIDELINE",
+  "strategy": {
+    "vision": "Give everyone the energy to live their purposes.",
+    "mission": "Provide the range of effective and delicious energy drinks that caters to individuals of all lifestyles and preferences ensuring accessibility for everyone.",
+    "purpose": "Enable people to pursue their goals with confidence, passion and determination (brand role: The Enabler).",
+    "values": ["DYNAMIC", "DETERMINED", "PURPOSEFUL", "FEEL_GOOD"],
+    "brand_story": {
+      "one_liner": "Energy with Passion.",
+      "short_story": "Red Bull is distinct because it represents a special combination of 'energy' and 'passion'—energizing people to do meaningful things and making the journey fulfilling.",
+      "history": "TBD",
+      "portfolio_overview": "Three platforms: Core, Flavor, Functional (Product Portfolio).",
+      "proof_points": [
+        "Long lasting efficacy enables you to work longer hours / do what you need to do (Core key message).",
+        "Specially formulated 'Concentration' improves focus and sustains energy for performance (Functional key message).",
+        "Most iconic, well-known, and trusted energy drink in the world.",
+        "Energy with Passion comes from providing efficacy through the right emotional connection with consumers."
+      ]
+    },
+    "positioning": {
+      "positioning_statement": "For everyone who needs energy to do meaningful things, Red Bull is the energy drink that helps them trust their inner strength and sustain what they do, powered by Energy with Passion.",
+      "target_audience": {
+        "primary": "Everyone who needs energy.",
+        "secondary": "Platform-specific targets defined by Core / Flavor / Functional.",
+        "bulls_eye_reference_note": "For Bull’s Eyes of each product, please refer to the product portfolio.",
+        "expanded_target_statement": "Everyone who needs to do things that are meaningful to them."
+      },
+      "category": "ENERGY_DRINK",
+      "value_propositions": [
+        {
+          "platform": "CORE",
+          "claim": "RB Classic for everyday stamina.",
+          "supporting_points": [
+            "Core key message emphasizes long lasting efficacy enabling you to work longer hours.",
+            "Campaign message example: 'Be Always On Top.'"
+          ],
+          "priority": 1
+        },
+        {
+          "platform": "FLAVOR",
+          "claim": "Everyday energy drink with pleasure (fruity flavors, carbonated refreshment).",
+          "supporting_points": [
+            "Flavor key message: delicious fruity flavors refresh you while pursuing hobbies you're passionate about.",
+            "Campaign message example: 'Ignite All Your Passions.'"
+          ],
+          "priority": 2
+        },
+        {
+          "platform": "FUNCTIONAL",
+          "claim": "EnergyPlus+ solution for ultimate performance (focus/concentration).",
+          "supporting_points": [
+            "Functional key message: improves focus and sustains energy so you can level-up performance.",
+            "Campaign message example: 'Yourself, at 101%.'"
+          ],
+          "priority": 3
+        }
+      ],
+      "reasons_to_believe": [
+        "Red Bull is trusted and well-known; differentiated by the special combination of energy + passion and emotional connection with consumers."
+      ],
+      "product_portfolio_matrix": {
+        "FUNCTIONAL": {
+          "platform_role": "Drive new occasions for energy drink",
+          "proposition": "EnergyPlus+ solution for ultimate performance",
+          "target_and_occasions": [
+            "Working adults, 20–35 YO",
+            "Functional benefits: immunity, hangover cure, focus & concentration"
+          ],
+          "product_profile": [
+            "Flavor fits functional cue",
+            "Strong sour & sweetness",
+            "ED signature taste is not always required"
+          ],
+          "source_of_volume": "Functional shot, ED"
+        },
+        "CORE": {
+          "platform_role": "Build base among heavy energy seekers",
+          "proposition": "RB Classic for everyday stamina",
+          "target_and_occasions": [
+            "Heavy energy seekers, 20–45 YO",
+            "Physical activities"
+          ],
+          "product_profile": ["Strong sour & sweetness (ED signature taste)"],
+          "source_of_volume": "Within mass ED"
+        },
+        "FLAVOR": {
+          "platform_role": "Reduce barriers & drive recruitment to ED category",
+          "proposition": "Everyday energy drink with pleasure",
+          "target_and_occasions": [
+            "Light energy + taste seekers, 20–29 YO",
+            "Light energy moments, leisure"
+          ],
+          "product_profile": [
+            "Smooth & easy to drink / with carbonation",
+            "ED signature taste is not always required"
+          ],
+          "source_of_volume": "CSD, Flavored ED, isotonic"
+        }
+      }
+    },
+    "brand_architecture": {
+      "model": "MASTER_BRAND_WITH_PLATFORMS",
+      "platforms": [
+        {
+          "name": "CORE",
+          "relationship_to_master": "PLATFORM_UNDER_MASTER",
+          "logo_lockup_rules_ref": "visual_identity.brand_elements.logo.lockups"
+        },
+        {
+          "name": "FLAVOR",
+          "relationship_to_master": "PLATFORM_UNDER_MASTER",
+          "logo_lockup_rules_ref": "visual_identity.brand_elements.logo.lockups"
+        },
+        {
+          "name": "FUNCTIONAL",
+          "relationship_to_master": "PLATFORM_UNDER_MASTER",
+          "logo_lockup_rules_ref": "visual_identity.brand_elements.logo.lockups"
+        }
+      ]
+    },
+    "brand_role": {
+      "name": "THE ENABLER",
+      "statement": "We instill a sense of confidence and belief in people, helping them overcome obstacles and experience joy with passion and determination."
+    },
+    "brand_footprint": {
+      "definition": "Brand Footprint is the summation of what the brand is about in a broader sense. It’s a one-word equity that people think of when they think of our brand.",
+      "stability_rule": "Brand Footprint remains unchanged for years, while Communication Idea can change after 1–2 years.",
+      "usage_scope": [
+        "design",
+        "photography",
+        "storytelling",
+        "media touchpoints",
+        "influencer",
+        "collaboration projects",
+        "events",
+        "new product developments"
+      ],
+      "communication_idea_timeline": [
+        { "period": "2023–2024", "idea": "Trust Your Energy" },
+        { "period": "2025–2026", "idea": "New Campaign (TBC)" },
+        { "period": "2027–2028", "idea": "New Campaign (TBC)" }
+      ]
+    },
+    "brand_equity_pyramid": {
+      "brand_footprint": {
+        "label": "Energy with Passion",
+        "definition": "Red Bull is passionate about energizing people and bring along the unique blend of energy and passion in everything we do."
+      },
+      "communication_idea": {
+        "label": "Trust Your Energy",
+        "definition": "Red Bull believes in the innate energy of everyone which will enable them to live their purposes."
+      },
+      "brand_role": {
+        "label": "The Enabler",
+        "definition": "Red Bull products provide energy and inspiration bolstering the innate energy of everyone."
+      },
+      "brand_personality": {
+        "traits": ["DYNAMIC", "DETERMINED", "PURPOSEFUL", "FEEL-GOOD"]
+      },
+      "brand_target": {
+        "statement": "Everyone who needs to do things that are meaningful to them."
+      }
+    },
+    "brand_system_comparison": {
+      "title": "The difference between TCP Red Bull and Red Bull Austria",
+      "tcp_red_bull": {
+        "slogan_variants": [
+          "Trust Your Energy",
+          "You Are The Real Bull (China)"
+        ],
+        "brand_personality": [
+          "DYNAMIC",
+          "DETERMINED",
+          "PURPOSEFUL",
+          "FEEL-GOOD"
+        ],
+        "brand_footprint": "Energy with passion",
+        "note": "TCP Red Bull uses market-local logo variants and a broader local product portfolio."
+      },
+      "red_bull_austria": {
+        "slogan": "Gives You Wings",
+        "brand_personality_as_perceived": [
+          "Masculine",
+          "Proud",
+          "Sporty",
+          "Pushing limits"
+        ],
+        "brand_footprint": "Extreme sports",
+        "note": "Red Bull Austria reflects the classic global positioning and core can lineup."
+      },
+      "mood_board": {
+        "tcp_red_bull_visual_world": [
+          "Everyday purpose-driven moments",
+          "Confidence, work, training, self-improvement",
+          "Lifestyle energy (not extreme-sports centric)",
+          "Trust Your Energy as a lived attitude"
+        ],
+        "red_bull_austria_visual_world": [
+          "Extreme sports and stunts",
+          "Motorsport (F1) and elite athletes",
+          "Pushing limits / high-adrenaline feats",
+          "Iconic Red Bull brand worlds (e.g., space jump)"
+        ]
+      }
+    }
+  },
+  "voice_and_messaging": {
+    "communication_platform": {
+      "big_idea": "Trust Your Energy",
+      "applies_to_platforms": ["CORE", "FLAVORS", "FUNCTIONAL"],
+      "usage_rule": "Serve as the big idea across all product platforms. It may not always take center stage (especially for new product launches communicating new benefits or ingredients), but it should always be present at least as the brand idea or slogan to drive consistency.",
+      "context_note": "Next pages show examples of how each product platform can work under 'Trust Your Energy'."
+    },
+    "platform_examples": {
+      "CORE": {
+        "example_line": "Be always on top.",
+        "intent": "Express confidence and readiness to perform under the 'Trust Your Energy' idea."
+      },
+      "FLAVORS": {
+        "example_line": "Ignite all your passions.",
+        "intent": "Connect flavors to passion-driven, fun, expressive moments under the 'Trust Your Energy' idea."
+      },
+      "FUNCTIONAL": {
+        "example_line": "Yourself, at 101%.",
+        "intent": "Lead with functional benefit and performance uplift while staying anchored to 'Trust Your Energy'."
+      }
+    },
+    "brand_personality": {
+      "archetype": "THE_ENABLER",
+      "traits": ["DYNAMIC", "DETERMINED", "PURPOSEFUL", "FEEL_GOOD"],
+      "what_we_are": [
+        "Lively, energetic, always looking for growth and improvement.",
+        "Motivated and focused on progress and everyday experience.",
+        "Supports people pursuing strong desires and meaningful goals.",
+        "Believes in the positive state of going after what you want; energy makes it possible."
+      ],
+      "what_we_are_not": ["TBD"],
+      "traits_with_definitions": [
+        {
+          "trait": "DYNAMIC",
+          "definition": "Red Bull is lively, energetic and always looking for growth and improvement."
+        },
+        {
+          "trait": "DETERMINED",
+          "definition": "Red Bull is extremely motivated and focused on progress and everyday experience."
+        },
+        {
+          "trait": "PURPOSEFUL",
+          "definition": "Red Bull gives energy to the strong desires that people have when they pursue something out of life, no matter big or small."
+        },
+        {
+          "trait": "FEEL_GOOD",
+          "definition": "Red Bull believes that going after what you want is the positive state to be in. Even though the journey is not easy, if you have the energy to do it, that is the FEEL-GOOD moment."
+        }
+      ]
+    },
+    "tone_of_voice": {
+      "principles": [
+        "DYNAMIC_AND_ENERGETIC",
+        "CONFIDENT_AND_MOTIVATIONAL",
+        "PURPOSE_DRIVEN_AND_POSITIVE"
+      ],
+      "dos": [
+        "Encourage people to believe in their inner strength and energy.",
+        "Connect energy to passion, determination, and meaningful pursuits."
+      ],
+      "donts": [
+        "Avoid artificial-looking imagery; emphasize authenticity in skin texture, lighting, and expressions."
+      ],
+      "word_bank": ["Energy", "Passion", "Trust", "Purpose", "Determination"],
+      "banned_words": ["TBD"],
+      "sample_copy": {
+        "headlines": [
+          "Trust Your Energy",
+          "Be Always On Top.",
+          "Ignite All Your Passions.",
+          "Yourself, at 101%."
+        ],
+        "ctas": ["Trust Your Energy"],
+        "product_descriptors": [
+          "RB Classic for everyday stamina (Core).",
+          "Everyday energy drink with pleasure (Flavor).",
+          "EnergyPlus+ solution for ultimate performance (Functional)."
+        ],
+        "social_captions": ["TBD"]
+      }
+    },
+    "messaging_pillars": [
+      {
+        "pillar": "BRAND_FOOTPRINT",
+        "key_messages": ["Energy with Passion"],
+        "supporting_points": [
+          "Brand footprint stays for years; communication ideas can change after 1–2 years.",
+          "Red Bull is different because it is the most iconic, well-known, and trusted energy drink in the world.",
+          "Energy with Passion reflects the special combination of 'energy' and 'passion'."
+        ],
+        "proof_points": [
+          "Used to guide design, photography, storytelling, touchpoints, influencers, events, product developments.",
+          "For individuals, having the energy to do something and the passion to do it meaningfully can be extremely fulfilling.",
+          "For the brand, Energy with Passion comes from providing efficacy through the right emotional connection with consumers."
+        ]
+      },
+      {
+        "pillar": "COMMUNICATION_IDEA",
+        "key_messages": ["Trust Your Energy"],
+        "supporting_points": [
+          "Encourages people to believe in their inner strength and energy, whatever they do.",
+          "Applies across product platforms (Core, Flavors, Functional) and should remain as brand idea/slogan."
+        ],
+        "proof_points": [
+          "Platform executions: Core/Flavor/Functional key messages."
+        ]
+      }
+    ],
+    "taglines_and_signoffs": {
+      "approved": [
+        {
+          "text": "Trust Your Energy",
+          "usage": "Always present as brand idea/slogan across platforms; can sit behind campaign messages.",
+          "restrictions": "TBD"
+        },
+        {
+          "text": "You Are The Real Bull (China)",
+          "usage": "Market usage shown under TCP Red Bull slogans list.",
+          "restrictions": "MARKET_SPECIFIC_TCP"
+        }
+      ],
+      "deprecated": [
+        {
+          "text": "Gives You Wings",
+          "note": "Shown as Red Bull Austria slogan (not TCP Red Bull positioning in this guideline)."
+        }
+      ]
+    },
+    "claims_and_compliance": {
+      "approved_claims": [
+        "Long lasting efficacy enables you to work longer hours.",
+        "Delicious fruity flavors refresh you while pursuing passions/hobbies.",
+        "Improves focus and sustains energy for performance (Concentration)."
+      ],
+      "required_disclaimers": ["TBD"],
+      "legal_attribution_line": ["TBD"]
+    }
+  },
+  "visual_identity": {
+    "applications": {
+      "on_situ_materials": {
+        "sections": ["OOH", "DIGITAL"],
+        "note": "These pages illustrate how the brand system is applied in real environments (OOH placements and digital/device contexts)."
+      },
+      "promotional_items": {
+        "scope_note": "Red Bull logo can be used in various promotional items across media and object sizes (small to large), for decorating event stands or small promotions. Cropping/rotation is only allowed in specific cases.",
+        "horizontal_logo_allowed": true,
+
+        "two_red_bulls_usage": {
+          "rule_summary": "Be respectful to all elements of the logo. Separation, recomposition, or alteration are not allowed. The typography 'RED BULL' cannot be mixed with other typography."
+        },
+
+        "one_red_bull_usage": {
+          "allowed_construction": "Use a single left bull with the sun as a graphic element.",
+          "constraints": [
+            "Never head the bull downward.",
+            "Rotation and cropping are allowed, but always keep the front legs visible.",
+            "Never change the sun and the bull proportion."
+          ],
+          "placement_guidance": [
+            "Bull should be positioned upward or forward.",
+            "Use a suitable size with a croppable area.",
+            "Always have the Red Bull mark visible in the immediate area."
+          ],
+          "donts": [
+            "Do not crop so much that front legs are not clearly visible.",
+            "Do not position the bull in a downward motion.",
+            "Do not use the bull without the sun."
+          ]
+        },
+
+        "mugs_and_bottles": {
+          "background_rule": "Red Bull logo is not allowed to appear on photographic background; it is only allowed on natural textures of materials (e.g., ceramic, glass, steel)."
+        },
+
+        "fashion_items": {
+          "two_sides_rule": "The Red Bull should be clearly placed on both sides with near-identical sizes.",
+          "cropping_rule": "The 'Red Bull' can be cropped; however it should cover the front legs.",
+          "size_balance_rule": "Do not crop one side to be significantly smaller than the other.",
+          "pairing_rule": "The bulls are always used together with the sun.",
+          "flexible_usage_note": "Logo usage can be more flexible with fashion items and can be combined with cool lines / meaningful sentences."
+        },
+
+        "mc_style_of_attire": {
+          "style_guidance": [
+            "Casual, active, and cool.",
+            "Prefer cotton, clean material, good fabric quality.",
+            "Keep clothing simple and modern; place Red Bull logo at a bold position."
+          ],
+          "placement_restrictions": [
+            "Do NOT place the logo on trousers, skirts, socks, or any lower part of the attire."
+          ],
+          "donts": [
+            "Outfit should not be too exposed.",
+            "Do not look cheap.",
+            "Do not mislead the character of the brand."
+          ]
+        }
+      }
+    },
+    "brand_elements": {
+      "logo": {
+        "primary_logo": "RED_BULL_MASTER_LOGO",
+        "secondary_logo": "MARKET_VARIANTS_SHOWN",
+        "campaign_logo": {
+          "collaborations": {
+            "rule_summary": "Do not use inappropriate Red Bull logo usage. For collaborations, use a graphic element that plays between the Red Bull logo and the partner’s logo/name, using a 'Red Bull X' construction.",
+            "x_placement_options": [
+              "X placed to the right of the Red Bull logo",
+              "X placed underneath the Red Bull logo"
+            ]
+          },
+          "owned_projects": {
+            "rule_summary": "For Red Bull’s own projects/events/activations, a composite logo can be created but the integrity/structure of the Red Bull logo must not be modified."
+          },
+          "regulations": {
+            "clear_space_rule": "Minimum clear space around the Red Bull logo must be at least 1/8 height of the sun.",
+            "campaign_name_height_rule": "Total height of the campaign name must not exceed 4× the height of the Red Bull sun.",
+            "thai_logo_without_kratingdaeng_permitted": true
+          }
+        },
+        "usage_rules": [
+          "Be respectful to all elements of the logo.",
+          "Separation, recomposition, or alteration are not allowed.",
+          "The typography 'RED BULL' cannot be mixed with other typography."
+        ],
+        "variations": [
+          {
+            "name": "TCP_RED_BULL_VARIANTS",
+            "asset_ref": "asset_logo_tcp_variants",
+            "usage": "Market usage comparison slide.",
+            "url": "https://drive.google.com/uc?export=view&id=1K3PCuRQrwdxrZrkhYoo1p6X74W_WuNFf"
+          },
+          {
+            "name": "HORIZONTAL_LOGO_ALLOWED",
+            "asset_ref": "asset_logo_horizontal",
+            "usage": "Explicit allowance stated in guideline.",
+            "url": "https://drive.google.com/uc?export=view&id=16uC6sSrQt6ht7hw4SzAE6wlY4MDhKnSf"
+          }
+        ],
+        "international_variants": {
+          "monochrome_usage": {
+            "when_to_use": [
+              "Special printing/production that does not support ordinary colored files"
+            ],
+            "examples": [
+              "Stamper/rubber stamp",
+              "Hot stamping foil",
+              "Embroidery",
+              "Engravings",
+              "Textile printing",
+              "3D printing",
+              "Debossed stamp on leather"
+            ]
+          },
+          "inline_logo_usage": {
+            "when_to_use": [
+              "Narrow placements where a standard logo is not practical"
+            ],
+            "examples": ["Hoodie sleeves", "Narrow side of shop awning"]
+          }
+        },
+        "clear_space": {
+          "definition": "TBD",
+          "measurement": "TBD",
+          "minimum_clear_space_rule": "TBD"
+        },
+        "minimum_size": {
+          "digital_px": "TBD",
+          "print_mm": "TBD"
+        },
+        "background_control": {
+          "preferred_backgrounds": ["TBD"],
+          "avoid_backgrounds": ["TBD"],
+          "contrast_rules": ["TBD"]
+        },
+        "lockups": [
+          {
+            "type": "PARTNER_SPONSOR_LOCKUP",
+            "rules": ["TBD"],
+            "examples_asset_refs": ["TBD"]
+          }
+        ],
+        "misuse": [
+          "TBD_DO_NOT_STRETCH_OR_SKEW",
+          "TBD_DO_NOT_RECOLOR_OUTSIDE_APPROVED_VARIANTS",
+          "TBD_DO_NOT_ALTER_PROPORTIONS",
+          "TBD_DO_NOT_PLACE_ON_LOW_CONTRAST_BACKGROUNDS"
+        ],
+        "regional_campaign_rules": [
+          {
+            "market": "TCP",
+            "rules": [
+              "Slogan differs from Red Bull Austria (TCP: Trust Your Energy / You Are The Real Bull (China); Austria: Gives You Wings).",
+              "Brand footprint differs (TCP: Energy with passion; Austria: Extreme sports)."
+            ]
+          }
+        ]
+      },
+      "color": {
+        "palette": [
+          {
+            "name": "SPIRITED_BLUE",
+            "role": "BRAND_NEW_COLOR",
+            "hex": "#5C64B0",
+            "rgb": "R92 G100 B176",
+            "cmyk": "C92 M63 Y0 K0",
+            "pantone": "Electric Blue Lemonade (Pantone 18-4245 TN)",
+            "usage_notes": "New brand color (Spirited Blue)."
+          },
+          {
+            "name": "SPIRITED_RED",
+            "role": "FLAVOR_NEW_COLOR",
+            "hex": "#FE2418",
+            "rgb": "R254 G36 B24",
+            "cmyk": "C0 M95 Y98 K0",
+            "pantone": "Cochineal Red (Pantone 1795 C)",
+            "usage_notes": "Flavor new color (Spirited Red)."
+          },
+          {
+            "name": "SPIRITED_GREEN",
+            "role": "FLAVOR_NEW_COLOR",
+            "hex": "#7FC845",
+            "rgb": "R127 G200 B69",
+            "cmyk": "C54 M0 Y96 K0",
+            "pantone": "Jasmine Green (Pantone 15-0545 TCX)",
+            "usage_notes": "Flavor new color (Spirited Green)."
+          },
+          {
+            "name": "SPIRITED_BERRY",
+            "role": "FLAVOR_NEW_COLOR",
+            "hex": "#EB222A",
+            "rgb": "R235 G34 B42",
+            "cmyk": "C1 M98 Y93 K0",
+            "pantone": "PMS 2347 C",
+            "usage_notes": "Flavor new color (Spirited Berry)."
+          },
+          {
+            "name": "SPIRITED_ORANGE",
+            "role": "FLAVOR_NEW_COLOR",
+            "hex": "#FC9E22",
+            "rgb": "R252 G158 B34",
+            "cmyk": "C0 M44 Y96 K0",
+            "pantone": "Radiant Yellow (Pantone 15-1058 TCX)",
+            "usage_notes": "Flavor new color (Spirited Orange)."
+          },
+          {
+            "name": "SPIRITED_POMELO",
+            "role": "FLAVOR_NEW_COLOR",
+            "hex": "#D12368",
+            "rgb": "R209 G35 B104",
+            "cmyk": "C14 M98 Y37 K0",
+            "pantone": "Rubine Red CP",
+            "usage_notes": "Flavor new color (Spirited Pomelo)."
+          }
+        ]
+      },
+      "layout_system": {
+        "brand_template": {
+          "basic_principle": "Use the Red Bull Sun as the unit of measurement to proportion and balance layout elements across templates.",
+          "master_rule": "Place the logo at the right size first, then use the Red Bull Sun as the measurement unit to proportion all elements.",
+          "formats": [
+            { "name": "DIGITAL_POST_1x1", "ratio": "1:1" },
+            {
+              "name": "SOCIAL_MEDIA_STORIES",
+              "ratio": "9:16",
+              "notes": "Vertical assets"
+            }
+          ]
+        }
+      },
+      "typography": {
+        "headline_and_tagline_font": {
+          "primary_font_family": "Acumin Pro",
+          "usage": ["HEADLINES", "TAGLINES"],
+          "style_guidance": ["Bold, strong, dynamic", "Mostly used in italic"],
+          "notes": "Acumin is the headline & tagline font."
+        },
+        "primary_font": {
+          "family": "TBD",
+          "weights": ["TBD"],
+          "fallbacks": ["TBD"],
+          "licenses": "TBD"
+        },
+        "secondary_font": {
+          "family": "TBD",
+          "weights": ["TBD"],
+          "fallbacks": ["TBD"]
+        },
+        "type_scale": {
+          "h1": {
+            "size": "TBD",
+            "line_height": "TBD",
+            "weight": "TBD",
+            "tracking": "TBD"
+          },
+          "h2": {
+            "size": "TBD",
+            "line_height": "TBD",
+            "weight": "TBD",
+            "tracking": "TBD"
+          },
+          "body": {
+            "size": "TBD",
+            "line_height": "TBD",
+            "weight": "TBD",
+            "tracking": "TBD"
+          },
+          "caption": {
+            "size": "TBD",
+            "line_height": "TBD",
+            "weight": "TBD",
+            "tracking": "TBD"
+          }
+        },
+        "localization_support": {
+          "supported_scripts_or_languages": ["THAI", "KHMER", "HINDI"],
+          "note": "Guideline includes examples of localized typography usage (e.g., Khmer and Hindi executions)."
+        },
+        "dos": ["TBD"],
+        "donts": ["TBD"]
+      },
+      "iconography": {
+        "principle": "For icons, use Red Bull’s Sun as the main graphic element; it is flexible and can be played with in different configurations."
+      },
+      "graphic_elements": {
+        "key_elements": [
+          {
+            "name": "OFFICIAL_ELEMENT_PACKS",
+            "description": "Guideline references official Flash/KV/Ad element packs via links; treat as source of truth for graphic elements.",
+            "usage_rules": [
+              "Use official element packs linked in the guideline."
+            ],
+            "examples_asset_refs": ["THE_FLASH", "KV_AD_ELEMENTS"],
+            "url": "https://drive.google.com/uc?export=view&id=1_YugyMQJNBPhf2ehT7vD4sCexxksMByA"
+          }
+        ],
+        "iconography": {
+          "style": "TBD",
+          "stroke_width": "TBD",
+          "corner_radius": "TBD",
+          "dos": ["TBD"],
+          "donts": ["TBD"]
+        },
+        "illustration": {
+          "style_description": "TBD",
+          "dos": ["TBD"],
+          "donts": ["TBD"]
+        },
+        "flash_usage_rule": "When the pack is in the visual, the flash should only support the tagline (not compete with the pack).",
+        "flash": {
+          "purpose": [
+            "Reinforce brand presence across assets",
+            "Add a dynamic footprint to materials",
+            "Reinforce brand colors",
+            "Support the 'TRUST YOUR ENERGY' tagline"
+          ],
+          "definition": "A flash of colored light that can change depending on the different products.",
+          "placement_behavior": "Passes behind the pack to emphasize it and give a sense of spirited energy."
+        },
+        "black_space_rule": {
+          "rule": "Black space can be used for the visual, but a full black background is not allowed for all product shots."
+        }
+      }
+    },
+    "layout_system": {
+      "grid_system": {
+        "columns": "TBD",
+        "gutters": "TBD",
+        "margins": "TBD",
+        "safe_area_rules": ["TBD"]
+      },
+      "spacing_scale": ["4", "8", "16", "24", "32", "48"],
+      "component_tokens": {
+        "corner_radius": "TBD",
+        "stroke_styles": ["TBD"],
+        "shadows": ["TBD"]
+      },
+      "data_visualization": {
+        "chart_rules": ["TBD"],
+        "labeling_rules": ["TBD"],
+        "color_usage_rules": ["TBD"],
+        "accessibility_rules": ["TBD"]
+      }
+    },
+    "logo_system": {
+      "variants": {
+        "STANDARD": {
+          "description": "Standard (local) Red Bull logo lockup.",
+          "lockups": ["STACKED", "INLINE"]
+        },
+        "INTERNATIONAL": {
+          "description": "International (English) Red Bull logo lockup.",
+          "lockups": ["STACKED", "INLINE"]
+        }
+      },
+      "clear_space": {
+        "measurement_unit": "RED_BULL_SUN",
+        "rule_summary": "Keep clear space around the logo using the Red Bull sun circle as the unit (see clear-space diagrams)."
+      },
+      "minimum_size": {
+        "STANDARD_INLINE_min_width_cm": 3
+      },
+      "colorways": {
+        "allowed": [
+          "FULL_COLOR",
+          "MONOCHROME_DARK_ON_LIGHT",
+          "MONOCHROME_LIGHT_ON_DARK"
+        ],
+        "notes": "Monochrome/inverse usage is allowed for special production constraints."
+      },
+      "donts": [
+        "Do not recolor outside approved colorways.",
+        "Do not stretch, squash, or distort.",
+        "Do not rotate or tilt.",
+        "Do not add shadows, outlines, glows, or effects.",
+        "Do not rearrange elements or change proportions.",
+        "Do not place on low-contrast or busy backgrounds that hurt legibility.",
+        "Do not remove elements or substitute typography."
+      ]
+    }
+  },
+  "content_style_systems": {
+    "photography": {
+      "ai_generated_visuals_note": "Because sourcing images that fully match the desired attitude without on-site shooting is challenging, some visuals in this guideline are AI-generated to align with the desired attitude and occasions. The goal is NOT artificial-looking imagery; for real shoots, emphasize authentic skin texture, lighting, and expressions.",
+      "image_must_embody": "Every image used should embody dynamism, determination, purpose, and positivity.",
+      "style": {
+        "mood": "Dynamic, determined, purposeful, positive; authentic and realistic.",
+        "lighting": "Natural lighting emphasis; realistic situations conveyed via lighting and composition.",
+        "color_treatment": "TBD",
+        "lens_and_depth_of_field": "TBD"
+      },
+      "packshot_rules": {
+        "background": {
+          "dos": ["TBD"],
+          "donts": [
+            "Black background is not allowed for product shots (the black space is for the visual, not as a product-shot background)."
+          ]
+        },
+        "composition_rules": {
+          "water_splashes_and_ice": {
+            "rule": "Do not use water splashes and ice simultaneously in the same composition.",
+            "rationale": "They symbolize different stages of melting; the layout should represent freshness and energy of Red Bull.",
+            "guidance": [
+              "To convey energy and dynamism, use splashes.",
+              "To convey determination and power, use ice."
+            ],
+            "exception": "It is possible to use splash of product from the bottle/can together with ice."
+          },
+          "effects_around_pack": {
+            "not_allowed": [
+              "Halos around the pack",
+              "Glowing/magic effects around the pack"
+            ],
+            "allowed": [
+              "Splashes",
+              "Sparks of light",
+              "Reflections",
+              "Other real-world elements to enhance the pack"
+            ],
+            "rationale": "Avoid unrealistic-looking compositions."
+          },
+          "camera_angle": {
+            "not_allowed": "Do not shoot the pack from an above angle.",
+            "do": [
+              "Shoot from the front view",
+              "Or shoot slightly from a lower angle"
+            ],
+            "note": "Ensure not to exceed the limit to avoid showing too much of the bottle bottom."
+          },
+          "pack_tilt_policy": {
+            "lifestyle_composition": {
+              "rule": "Never tilt the packs in a composition with a lifestyle visual where the product is placed like a pack shot.",
+              "do": "Portray only straight packs with the flash."
+            },
+            "still_life_only_packs": {
+              "rule": "In still life compositions where only the packs are the visual, packs may be moved/tilted.",
+              "max_tilt_degrees": 50
+            }
+          }
+        },
+        "angles": {
+          "dos": [
+            "Shoot the pack from the front view or slightly at a lower angle."
+          ],
+          "donts": [
+            "Don’t shoot the pack from an above angle (avoid making it look powerless).",
+            "Don’t exceed the angle limit to avoid showing too much of the bottle bottom."
+          ]
+        },
+        "retouching": {
+          "allowed": [
+            "Keep real texture of skin with small imperfections; keep real hair with flyaways; keep realistic situations via natural lighting/composition."
+          ],
+          "not_allowed": [
+            "Avoid artificial-looking imagery; if AI-generated visuals are used, they should align with desired attitude/occasions but not look artificial."
+          ]
+        }
+      },
+      "packshot_kv_examples": {
+        "core": [
+          "Core pack shot KV with water splashes",
+          "Core pack shot KV with ice",
+          "KV with multiple packs and ice"
+        ],
+        "flavor": ["Flavor pack shot KV examples (multiple variants)"],
+        "family_flavor_packshot": {
+          "rule": "Use the specific background grouping that regroups all flavor colors in one proportion; the background can be rotated depending on which flavor is highlighted."
+        }
+      },
+      "kv_types": ["LIFESTYLE_KV", "PACKSHOT_KV"],
+      "liquid_visual_identity": {
+        "importance_note": "The liquid must be as close to reality as possible. Color must respect real product color. Textures, bubbles, splashes, and related elements can be used to convey energy, determination, and action.",
+        "splash_style": "Liquid splashes must be dynamic and bold.",
+        "creative_intent": "Create appetizing product still life to celebrate Red Bull product values and attract people to try and drink it."
+      },
+      "approach": {
+        "principle": "Efficacy + Emotional",
+        "components": [
+          "Flash (efficacy / product clarity)",
+          "Art direction (emotional / mood)"
+        ]
+      },
+      "mood_principles": [
+        "Use portrait or wider-format pictures showing clear facial expressions.",
+        "Subject should be on the move, as if capturing the first second of action.",
+        "Background should be slightly blur or motion blur to convey movement and a dynamic mood and tone."
+      ],
+      "storytelling_principles": {
+        "core": "Tell real stories in real life to connect with consumers in a modern and inspiring way.",
+        "tagline": "BE REAL"
+      },
+      "talent_direction": {
+        "rule": "Show emotion. In all situations (moving or still), direct talent to express feelings and deliver Red Bull brand values.",
+        "brand_values_to_express": [
+          "DYNAMIC",
+          "DETERMINED",
+          "PURPOSEFUL",
+          "FEEL-GOOD"
+        ]
+      },
+      "reference_examples": [
+        {
+          "label": "Real photo examples for portraying talents (authentic texture/hair/lighting/composition).",
+          "asset_ref_or_url": "TBD",
+          "notes": "Image-based example; reference slide only.",
+          "url": "https://drive.google.com/uc?export=view&id=1bQ_T9q7cik9Fd6AiRBPyliMX6YgMG3Vb",
+          "refs": [{ "type": "SLIDE", "id": 3 }]
+        }
+      ]
+    },
+    "film_storytelling_guidelines": {
+      "principles": ["TBD"],
+      "pacing": "TBD",
+      "logo_intro_outro": {
+        "duration_sec": "TBD",
+        "safe_area": "TBD",
+        "dos": ["TBD"],
+        "donts": ["TBD"]
+      },
+      "lower_thirds_and_titles": {
+        "typography_ref": "visual_identity.brand_elements.typography",
+        "animation_rules": ["TBD"]
+      },
+      "one_pager_do_dont_summary": {
+        "dos": [
+          "Real portrayal of the story",
+          "Portray talent as real people with personalities",
+          "Portray celebrities as another human being (with flaws and struggles)",
+          "Focus on attitude of individuals in the story",
+          "Focus on the benefits of Red Bull",
+          "Memorable scenes",
+          "Minimal use of copy and supers",
+          "Strong energy vibe",
+          "Unexpected use of music"
+        ],
+        "donts": [
+          "Stereotype or over-dramatization of the story",
+          "Using talents as good-looking models only",
+          "Portray celebrities as superstars (always successful and too-good-to-be-true)",
+          "Focus on careers and adventures of individuals",
+          "Focus on the problem",
+          "Lack of memorable scenes",
+          "Too much voice over & supers",
+          "Static and still energy",
+          "Cliché music like EDM for every piece of content"
+        ]
+      }
+    },
+    "audio": {
+      "music_guideline": {
+        "role_of_music": "Music is a vital part of communication; it sets the right mood and tone of all assets.",
+        "brand_personality_support": "Power of music should enhance Red Bull brand personality: dynamic, determined, purposeful, and feel-good.",
+        "mixing_rules": [
+          "Music should lead to a clear message.",
+          "Music should not compete with voice over (instrumental is recommended).",
+          "Music with vocal can be used in parts with no voice over."
+        ]
+      }
+    },
+    "video_and_motion": {
+      "cgi_with_bumping_bulls": {
+        "storytelling_effects_rule": "Do not add special effects into the storytelling; it will create fake perceptions. Red Bull doesn’t give superpowers.",
+        "cgi_demo_allowed": "CGI can be used for demo purposes.",
+        "bumping_bull_end_scene": {
+          "rule": "Use the recommended 'bumping bull graphic end scene' version to sign off all films for consistency.",
+          "new_version_process": "If a new version is needed, reach out to the global marketing team for alignment."
+        },
+        "donts": [
+          "Don't mix the bumping bull graphic with the pack.",
+          "Don't write 'RED BULL' with other fonts.",
+          "Don't use the logo other than its form."
+        ]
+      }
+    },
+    "music_and_sound": {
+      "sonic_identity": {
+        "mood_words": ["TBD"],
+        "genres": ["TBD"],
+        "tempo_bpm_range": "TBD",
+        "instruments_or_textures": ["TBD"],
+        "avoid": ["TBD"]
+      },
+      "licensing_notes": "TBD"
+    },
+
+    "motion_design": {
+      "principles": ["TBD"],
+      "transitions": ["TBD"],
+      "typography_motion": ["TBD"],
+      "do_dont": {
+        "dos": ["TBD"],
+        "donts": ["TBD"]
+      }
+    }
+  },
+
+  "channels_and_materials": {
+    "brand_visual": {
+      "key_visual_system": {
+        "structure": "KV/Ad/Flash elements exist as downloadable packs referenced in the guideline.",
+        "flash_with_packshot_rule": "When the pack is in the visual, the Flash should only support the tagline.",
+        "headline_system": "TBD",
+        "cta_system": "TBD",
+        "dos": [
+          "Use official KV/Ad/Flash element packs from the guideline links."
+        ],
+        "donts": ["TBD"]
+      }
+    },
+    "social_guideline": {
+      "platforms": [
+        {
+          "name": "INSTAGRAM",
+          "formats": ["REELS", "STORIES", "CAROUSEL"],
+          "safe_zones": "TBD",
+          "caption_style": "TBD",
+          "hashtag_policy": "TBD",
+          "emoji_policy": "TBD"
+        },
+        {
+          "name": "TIKTOK",
+          "formats": ["SHORT_VIDEO"],
+          "safe_zones": "TBD",
+          "caption_style": "TBD"
+        }
+      ],
+      "platform_specific_rules": {
+        "SOCIAL_MEDIA_STORIES": ["Stories assets should be vertical."]
+      },
+      "templates": [
+        {
+          "template_name": "TBD",
+          "usage": "TBD",
+          "asset_ref": "TBD"
+        }
+      ],
+      "community_management": {
+        "tone": "TBD",
+        "response_dos": ["TBD"],
+        "response_donts": ["TBD"],
+        "escalation_rules": ["TBD"]
+      }
+    },
+    "campaign_guideline": {
+      "campaign_naming_rules": ["TBD"],
+      "hero_assets": ["KV_PACKS_REFERENCED_IN_GUIDELINE_LINKS"],
+      "co_branding_rules": {
+        "partner_lockups_ref": "visual_identity.brand_elements.logo.lockups",
+        "dos": ["TBD"],
+        "donts": ["TBD"]
+      },
+      "toolkit_checklist": [
+        "KEY_VISUAL",
+        "LOGO_LOCKUPS",
+        "HEADLINE_CTA_SET",
+        "SOCIAL_TEMPLATES",
+        "OOH_PRINT_ADAPTS",
+        "VIDEO_CUTDOWNS"
+      ]
+    },
+    "online_material": {
+      "web": {
+        "components": ["TBD"],
+        "seo_messaging": "TBD",
+        "accessibility": ["TBD"]
+      },
+      "email": {
+        "layout_rules": ["TBD"],
+        "typography_ref": "visual_identity.brand_elements.typography",
+        "dos": ["TBD"],
+        "donts": ["TBD"]
+      },
+      "app_ui": {
+        "design_tokens_ref": "visual_identity.layout_system",
+        "dos": ["TBD"],
+        "donts": ["TBD"]
+      }
+    },
+    "offline_material": {
+      "print": {
+        "bleed_and_safe": "TBD",
+        "paper_recommendations": ["TBD"],
+        "color_management": "TBD"
+      },
+      "ooh": {
+        "viewing_distance_rules": ["TBD"],
+        "minimum_logo_size_rules": ["TBD"]
+      },
+      "event_branding": {
+        "signage": ["TBD"],
+        "stage_backdrop": ["TBD"],
+        "merchandising": ["TBD"]
+      }
+    },
+    "other": {
+      "presentations": {
+        "slide_templates": ["TBD"],
+        "dos": ["TBD"],
+        "donts": ["TBD"]
+      },
+      "press_kit": {
+        "required_assets": ["TBD"],
+        "boilerplate": "TBD"
+      }
+    }
+  },
+  "governance": {
+    "review_process": {
+      "when_review_is_required": [
+        "NEW_CAMPAIGN_LAUNCH",
+        "NEW_PARTNER_LOCKUP",
+        "NEW_PRODUCT_EDITION"
+      ],
+      "review_sla": "TBD",
+      "review_roles": ["BRAND", "LEGAL", "DESIGN"]
+    },
+    "localization_rules": {
+      "what_can_change": ["COPY_LANGUAGE", "LOCAL_REGULATORY_DISCLAIMERS"],
+      "what_cannot_change": [
+        "PRIMARY_LOGO_CONSTRUCTION",
+        "CORE_BRAND_FOOTPRINT_ENERGY_WITH_PASSION"
+      ],
+      "market_overrides": [
+        {
+          "market": "TCP",
+          "overrides": [
+            "TCP messaging emphasizes Trust Your Energy and Energy with Passion rather than extreme sports positioning."
+          ]
+        }
+      ]
+    },
+    "compliance_and_legal": {
+      "local_logo_regulations": {
+        "thai_logo_without_kratingdaeng_permitted": true
+      },
+      "trademark_rules": ["TBD"],
+      "copyright_rules": ["TBD"],
+      "usage_rights_photography": ["TBD"]
+    }
+  },
+
+  "reference_sets": {
+    "assets_from_world": [
+      {
+        "id": "moodboard_tcp_vs_austria",
+        "title": "TCP Red Bull vs Red Bull Austria mood board",
+        "region": "TCP_VS_AUSTRIA",
+        "category": "MOODBOARD_VISUAL_REFERENCE",
+        "why_it_matters": "Clarifies distinct visual/brand world between TCP Red Bull and Red Bull Austria.",
+        "url_or_asset_ref": "TBD",
+        "url": "https://drive.google.com/uc?export=view&id=1_BEvXRv0igkmetKMdwtmFbj816TJ4dui"
+      }
+    ],
+    "brand_competitors": [
+      {
+        "name": "RED_BULL_AUSTRIA",
+        "positioning_snapshot": "Perceived as extreme sports oriented; slogan 'Gives You Wings'.",
+        "strengths": ["EXTREME_SPORTS_ASSOCIATION"],
+        "weaknesses": ["TBD"],
+        "how_we_differ": [
+          "TCP: Energy with passion; Trust Your Energy; personality: dynamic/determined/purposeful/feel-good."
+        ],
+        "reference_assets": [
+          "https://drive.google.com/uc?export=view&id=1K3PCuRQrwdxrZrkhYoo1p6X74W_WuNFf",
+          "https://drive.google.com/uc?export=view&id=1_BEvXRv0igkmetKMdwtmFbj816TJ4dui"
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "asset_cover_slide_1",
+      "type": "FILE_LINK",
+      "name": "Brand Guidelines 2024 cover (primary logo on blue background)",
+      "url": "https://drive.google.com/uc?export=view&id=1RtSXB0_AbelxWyptLZ49zo89freTwBCg",
+      "usage_notes": "Cover/identity reference. Represents the document cover; useful for UI thumbnails and for confirming primary logo context.",
+      "refs": [
+        {
+          "type": "SLIDE",
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": "asset_logo_tcp_variants",
+      "type": "FILE_LINK",
+      "name": "TCP Red Bull logo variants (comparison slide)",
+      "url": "https://drive.google.com/uc?export=view&id=1K3PCuRQrwdxrZrkhYoo1p6X74W_WuNFf",
+      "usage_notes": "Reference only (do not extract image here).",
+      "refs": [
+        {
+          "type": "SLIDE",
+          "id": 18
+        }
+      ]
+    },
+    {
+      "id": "asset_logo_horizontal",
+      "type": "FILE_LINK",
+      "name": "Horizontal logo (allowed)",
+      "url": "https://drive.google.com/uc?export=view&id=16uC6sSrQt6ht7hw4SzAE6wlY4MDhKnSf",
+      "usage_notes": "Explicitly allowed in guideline."
+    },
+    {
+      "id": "THE_FLASH",
+      "type": "FILE_LINK",
+      "name": "Flash elements pack (linked in guideline)",
+      "url": "https://drive.google.com/uc?export=view&id=1_YugyMQJNBPhf2ehT7vD4sCexxksMByA",
+      "usage_notes": "Use official pack from guideline link.",
+      "refs": [
+        {
+          "type": "SLIDE",
+          "id": 94
+        }
+      ]
+    },
+    {
+      "id": "KV_AD_ELEMENTS",
+      "type": "FILE_LINK",
+      "name": "KV - Ad elements guide (linked in guideline)",
+      "url": "https://drive.google.com/uc?export=view&id=13nSAftSxB_5iZgK1tD6HHAvC3KkaZpnR",
+      "usage_notes": "Use official pack from guideline link.",
+      "refs": [
+        {
+          "type": "SLIDE",
+          "id": 107
+        }
+      ]
+    },
+    {
+      "id": "KV_KTD_WITH_ICON",
+      "type": "FILE_LINK",
+      "name": "KV elements (KTD with icon) (linked in guideline)",
+      "url": "https://drive.google.com/uc?export=view&id=1JrZV4c02cZ2q5dx6hvY_H3qrEs2_hFgj",
+      "usage_notes": "Use official pack from guideline link.",
+      "refs": [
+        {
+          "type": "SLIDE",
+          "id": 113
+        }
+      ]
+    },
+    {
+      "id": "KV_FLAVOR_PACK",
+      "type": "FILE_LINK",
+      "name": "KV - Flavor pack (Red and Green) (linked in guideline)",
+      "url": "https://drive.google.com/uc?export=view&id=17Nx5phaoFLNGlII9Vx8GP7vrra5GZ8Zl",
+      "usage_notes": "Use official pack from guideline link.",
+      "refs": [
+        {
+          "type": "SLIDE",
+          "id": 64
+        }
+      ]
+    },
+    {
+      "id": "POMELO_APPLE_PACKSHOT_KV",
+      "type": "FILE_LINK",
+      "name": "Pomelo_Apple_Packshot_KV_Folder.zip (linked in guideline)",
+      "url": "https://drive.google.com/uc?export=view&id=17Nx5phaoFLNGlII9Vx8GP7vrra5GZ8Zl",
+      "usage_notes": "Use official pack from guideline link.",
+      "refs": [
+        {
+          "type": "SLIDE",
+          "id": 115
+        }
+      ]
+    },
+    {
+      "id": "KV_FLAVOR_MULTIPLE_PACK",
+      "type": "FILE_LINK",
+      "name": "KV - Flavor Multiple pack (5 flavors) (linked in guideline)",
+      "url": "https://drive.google.com/uc?export=view&id=1S6sy11MzTngHjl347nTyQEPThPaSqYZ7",
+      "usage_notes": "Use official pack from guideline link.",
+      "refs": [
+        {
+          "type": "SLIDE",
+          "id": 120
+        }
+      ]
+    },
+    {
+      "id": "KV_GRAPEFRUIT_A4",
+      "type": "FILE_LINK",
+      "name": "Red Bull Soda_Grapefruit A4_Folder.zip (linked in guideline)",
+      "url": "https://drive.google.com/uc?export=view&id=1cwK_x2KD0O-9Pd-l-Np-otoBoH_cahTj",
+      "usage_notes": "Use official pack from guideline link.",
+      "refs": [
+        {
+          "type": "SLIDE",
+          "id": 121
+        }
+      ]
+    },
+    {
+      "id": "asset_logo_standard_stacked",
+      "type": "LOGO",
+      "name": "Standard Logo (stacked lockup)",
+      "url": "https://drive.google.com/uc?export=view&id=1JHPTkpqBAH--EqQzoBPbmi9OHVosOVJE",
+      "refs": [{ "type": "SLIDE", "id": 21 }]
+    },
+    {
+      "id": "asset_logo_standard_clear_space",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo clear-space diagram",
+      "url": "https://drive.google.com/uc?export=view&id=1sJFkKUIbu1TrtU2gdrI6c9vJXSglUUL_",
+      "refs": [{ "type": "SLIDE", "id": 22 }]
+    },
+    {
+      "id": "asset_logo_standard_dimensions",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo dimensions",
+      "url": "https://drive.google.com/uc?export=view&id=1hTaLxP7dAmB0XH__ndvvMz1S_DI5NWkw",
+      "refs": [{ "type": "SLIDE", "id": 22 }]
+    },
+    {
+      "id": "asset_logo_standard_colorways-11",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo approved color usage, while color on blue background",
+      "url": "https://drive.google.com/uc?export=view&id=1mqur6xes8K8WCnaB5nJWRPB1LyEMqL0z",
+      "refs": [
+        { "type": "SLIDE", "id": 23 },
+        { "type": "SLIDE", "id": 24 }
+      ]
+    },
+    {
+      "id": "asset_logo_standard_colorways-12",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo approved color usage, while color on black background",
+      "url": "https://drive.google.com/uc?export=view&id=1mqur6xes8K8WCnaB5nJWRPB1LyEMqL0z",
+      "refs": [
+        { "type": "SLIDE", "id": 23 },
+        { "type": "SLIDE", "id": 24 }
+      ]
+    },
+    {
+      "id": "asset_logo_standard_colorways-21",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo approved color usage, blue color on light background",
+      "url": "https://drive.google.com/uc?export=view&id=1-U8fSzITR5wNZVHPGha0uxoTlTlgmlu7",
+      "refs": [
+        { "type": "SLIDE", "id": 23 },
+        { "type": "SLIDE", "id": 24 }
+      ]
+    },
+    {
+      "id": "asset_logo_standard_colorways-22",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo approved color usage, black color on light background",
+      "url": "https://drive.google.com/uc?export=view&id=1-U8fSzITR5wNZVHPGha0uxoTlTlgmlu7",
+      "refs": [
+        { "type": "SLIDE", "id": 23 },
+        { "type": "SLIDE", "id": 24 }
+      ]
+    },
+    {
+      "id": "asset_logo_standard_colorways-3",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo approved color usage, debossed stamp on leather",
+      "url": "https://drive.google.com/uc?export=view&id=1iDjJNPv-urnTBoHUX6nqxoUSJyqumN2X",
+      "refs": [
+        { "type": "SLIDE", "id": 23 },
+        { "type": "SLIDE", "id": 24 }
+      ]
+    },
+    {
+      "id": "asset_logo_standard_colorways-4",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo approved color usage, rubber stamp",
+      "url": "https://drive.google.com/uc?export=view&id=1cW8ovBduWD7beaJr-Vxkh0ZTTjBAIefp",
+      "refs": [
+        { "type": "SLIDE", "id": 23 },
+        { "type": "SLIDE", "id": 24 }
+      ]
+    },
+    {
+      "id": "asset_logo_standard_donts-1",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo do & don't (misuse examples), don't stretch logo",
+      "url": "https://drive.google.com/uc?export=view&id=1A6hd0g1sLTrcYH2UatidAM_zbZOou4On",
+      "refs": [{ "type": "SLIDE", "id": 25 }]
+    },
+    {
+      "id": "asset_logo_standard_donts-2",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo do & don't (misuse examples), don't use gradients or patterns in the logo",
+      "url": "https://drive.google.com/uc?export=view&id=1bVwjhdeiEpaSii15uioXbwzXUwKrR5kR",
+      "refs": [{ "type": "SLIDE", "id": 25 }]
+    },
+    {
+      "id": "asset_logo_standard_donts-3",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo do & don't (misuse examples), don't put an image within the logo",
+      "url": "https://drive.google.com/uc?export=view&id=1RKfo8sPd1EPycHYf5bisjFEEmEfxdtbN",
+      "refs": [{ "type": "SLIDE", "id": 25 }]
+    },
+    {
+      "id": "asset_logo_standard_donts-4",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo do & don't (misuse examples), don't break the logo apart",
+      "url": "https://drive.google.com/uc?export=view&id=1RYkvIaDibJkLZ4jJl_ceBmkxk06rpPHS",
+      
+      "refs": [{ "type": "SLIDE", "id": 25 }]
+    },
+    {
+      "id": "asset_logo_standard_donts-5",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo do & don't (misuse examples), don't potray the Bull in outline and the Sun in full color",
+      "url": "https://drive.google.com/uc?export=view&id=1g4QeH1MN8a74ZFkiWEQIeCNkJcEWbNvD",
+      "refs": [{ "type": "SLIDE", "id": 25 }]
+    },
+    {
+      "id": "asset_logo_standard_donts-6",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo do & don't (misuse examples), don't set the logo in a non-brand color",
+      "url": "https://drive.google.com/uc?export=view&id=1g4QeH1MN8a74ZFkiWEQIeCNkJcEWbNvD",
+      "refs": [{ "type": "SLIDE", "id": 25 }]
+    },
+    {
+      "id": "asset_logo_standard_donts-7",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo do & don't (misuse examples), don't create your own logo",
+      "url": "https://drive.google.com/uc?export=view&id=1a2N3FdwMeHAKfQEdfAiZTqa5Pim2A_aj",
+      "refs": [{ "type": "SLIDE", "id": 25 }]
+    },
+    {
+      "id": "asset_logo_standard_donts-8",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo do & don't (misuse examples), don't wrap the logo",
+      "url": "https://drive.google.com/uc?export=view&id=1QgJJyYi3PAeGLSzaEqNENTlJTnKU-ueZ",
+      "refs": [{ "type": "SLIDE", "id": 25 }]
+    },
+    {
+      "id": "asset_logo_standard_donts-9",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo do & don't (misuse examples), don't make the logo multiple colors",
+      "url": "https://drive.google.com/uc?export=view&id=1RFDR6FyXvPnRP5jPh71jlWHuzYtQfLzr",
+      "refs": [{ "type": "SLIDE", "id": 25 }]
+    },
+    {
+      "id": "asset_logo_standard_donts-10",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Logo do & don't (misuse examples), don't use special affects on the logo",
+      "url": "https://drive.google.com/uc?export=view&id=1xuhZvzkurSezGfQfOKicTmPgjDnKlRSo",
+      "refs": [{ "type": "SLIDE", "id": 25 }]
+    },
+    {
+      "id": "asset_logo_standard_inline-1",
+      "type": "LOGO",
+      "name": "Standard Inline Logo (horizontal lockup)",
+      "url": "https://drive.google.com/uc?export=view&id=1NRNPHYZ9iE4oIJ_cqMD6GrwX1ebsYpIH",
+      "refs": [{ "type": "SLIDE", "id": 26 }]
+    },
+    {
+      "id": "asset_logo_standard_inline-2",
+      "type": "LOGO",
+      "name": "Standard Inline Logo (horizontal lockup), clear space around RedBull (in-line logo) must be at least 1/4 height of the sun",
+      "url": "https://drive.google.com/uc?export=view&id=1TvQCAsmI6azUwLta3BHm6XPHZ-4vBXS_",
+      "refs": [{ "type": "SLIDE", "id": 26 }]
+    },
+    {
+      "id": "asset_logo_standard_inline-3",
+      "type": "LOGO",
+      "name": "Standard Inline Logo (horizontal lockup), minimum size 3cm",
+      "url": "https://drive.google.com/uc?export=view&id=1JVEyo_tHgAYH1dJkvIzj0n6jOeGMGHq_",
+      "refs": [{ "type": "SLIDE", "id": 26 }]
+    },
+    {
+      "id": "asset_logo_standard_inline_usage-1",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Inline Logo usage examples, in-line logo on hoodie sleeves",
+      "url": "https://drive.google.com/uc?export=view&id=1vH-vX4KgboPBy5MiW-wJJzmAHXmGlicx",
+      "refs": [{ "type": "SLIDE", "id": 27 }]
+    },
+    {
+      "id": "asset_logo_standard_inline_usage-2",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Standard Inline Logo usage examples, in-line logo on narrow side of shop awning",
+      "url": "https://drive.google.com/uc?export=view&id=13yCREnrDvxnjpznZJHboSql8ym0oeyWc",
+      "refs": [{ "type": "SLIDE", "id": 27 }]
+    },
+
+    {
+      "id": "asset_logo_international_stacked",
+      "type": "LOGO",
+      "name": "International Logo (stacked lockup)",
+      "url": "https://drive.google.com/uc?export=view&id=1b9fTmSEG3UCjhLvZ_ZhGOigHImAGjiVd",
+      "refs": [{ "type": "SLIDE", "id": 28 }]
+    },
+    {
+      "id": "asset_logo_international_clear_space",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo clear-space diagram",
+      "url": "https://drive.google.com/uc?export=view&id=1RpUSi96z02FYpQsxcEvkdq08yHDwE5qS",
+      "refs": [{ "type": "SLIDE", "id": 29 }]
+    },
+    {
+      "id": "asset_logo_international_dimensions",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo dimensions",
+      "url": "https://drive.google.com/uc?export=view&id=1CoOMOkofiuTwKljA_YKvJIK51juAuRzj",
+      "refs": [{ "type": "SLIDE", "id": 29 }]
+    },
+    {
+      "id": "asset_logo_international_colorways-11",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo approved color usage, while color on blue background",
+      "url": "https://drive.google.com/uc?export=view&id=1gNDWRiHlulAXHQm7j9_piwGlTkyEspJx",
+      "refs": [
+        { "type": "SLIDE", "id": 30 },
+        { "type": "SLIDE", "id": 31 }
+      ]
+    },
+    {
+      "id": "asset_logo_international_colorways-12",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo approved color usage, while color on black background",
+      "url": "https://drive.google.com/uc?export=view&id=1y2zmUQtCrA5nIUcBkhs9TcbVk-YLd_GR",
+      "refs": [
+        { "type": "SLIDE", "id": 30 },
+        { "type": "SLIDE", "id": 31 }
+      ]
+    },
+    {
+      "id": "asset_logo_international_colorways-21",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo approved color usage, blue color on light background",
+      "url": "https://drive.google.com/uc?export=view&id=1j9E74Ytsf7N5PDfeOeEl62X5c0KoNk21",
+      "refs": [
+        { "type": "SLIDE", "id": 30 },
+        { "type": "SLIDE", "id": 31 }
+      ]
+    },
+    {
+      "id": "asset_logo_international_colorways-22",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo approved color usage, black color on light background",
+      "url": "https://drive.google.com/uc?export=view&id=19efUlGY6yySRqEdURPQw6BJqOy79BbM_",
+      "refs": [
+        { "type": "SLIDE", "id": 30 },
+        { "type": "SLIDE", "id": 31 }
+      ]
+    },
+    {
+      "id": "asset_logo_international_colorways-3",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo approved color usage, debossed stamp on leather",
+      "url": "https://drive.google.com/uc?export=view&id=1pv-8ALA1gi7t4jUsMX3jyVPnzKa2kdtw",
+      "refs": [
+        { "type": "SLIDE", "id": 30 },
+        { "type": "SLIDE", "id": 31 }
+      ]
+    },
+    {
+      "id": "asset_logo_international_colorways-4",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo approved color usage, rubber stamp",
+      "url": "https://drive.google.com/uc?export=view&id=1ZB-hRa9DmRs9SbDAsz5BEIJCkUKLZ6J6",
+      "refs": [
+        { "type": "SLIDE", "id": 30 },
+        { "type": "SLIDE", "id": 31 }
+      ]
+    },
+    {
+      "id": "asset_logo_international_donts-1",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo do & don't (misuse examples), don't stretch logo",
+      "url": "https://drive.google.com/uc?export=view&id=1rlAJ-mvyO3cTtxuY_FM13YC8UUVd7qJE",
+      "refs": [{ "type": "SLIDE", "id": 32 }]
+    },
+    {
+      "id": "asset_logo_international_donts-2",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo do & don't (misuse examples), don't use gradients or patterns in the logo",
+      "url": "https://drive.google.com/uc?export=view&id=1_7bF5k9q5AgzrAVMiRN5OH5erebmy8oy",
+      "refs": [{ "type": "SLIDE", "id": 32 }]
+    },
+    {
+      "id": "asset_logo_international_donts-3",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo do & don't (misuse examples), don't put an image within the logo",
+      "url": "https://drive.google.com/uc?export=view&id=15t_tWY9T4FSihVn24u9AcDuxZf9tp1Iw",
+      "refs": [{ "type": "SLIDE", "id": 32 }]
+    },
+    {
+      "id": "asset_logo_international_donts-4",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo do & don't (misuse examples), don't break the logo apart",
+      "url": "https://drive.google.com/uc?export=view&id=1Q-YFimWWfCWdQgRsEV28jpXH3eSSyeEc",
+      "refs": [{ "type": "SLIDE", "id": 32 }]
+    },
+    {
+      "id": "asset_logo_international_donts-5",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo do & don't (misuse examples), don't potray the Bull in outline and the Sun in full color",
+      "url": "https://drive.google.com/uc?export=view&id=1kA05cMdGxLtTNmPu6FvQa4oACrVkd8A4",
+      "refs": [{ "type": "SLIDE", "id": 32 }]
+    },
+    {
+      "id": "asset_logo_international_donts-6",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo do & don't (misuse examples), don't set the logo in a non-brand color",
+      "url": "https://drive.google.com/uc?export=view&id=1PUOkgoMq-bG7qs1UP4ffEq0B9h1oXDGr",
+      "refs": [{ "type": "SLIDE", "id": 32 }]
+    },
+    {
+      "id": "asset_logo_international_donts-7",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo do & don't (misuse examples), don't create your own logo",
+      "url": "https://drive.google.com/uc?export=view&id=1ojZalQ9Ay0OCx8IVHX47llUVvo_QS-on",
+      "refs": [{ "type": "SLIDE", "id": 32 }]
+    },
+    {
+      "id": "asset_logo_international_donts-8",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo do & don't (misuse examples), don't wrap the logo",
+      "url": "https://drive.google.com/uc?export=view&id=1WVymreWGk1oGP47g6jbXR3KjgjpTM0l8",
+      "refs": [{ "type": "SLIDE", "id": 32 }]
+    },
+    {
+      "id": "asset_logo_international_donts-9",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo do & don't (misuse examples), don't make the logo multiple colors",
+      "url": "https://drive.google.com/uc?export=view&id=1ZkB4Rre4hL7vDF5u8kqsZveT1TXOi7jx",
+      "refs": [{ "type": "SLIDE", "id": 32 }]
+    },
+    {
+      "id": "asset_logo_international_donts-10",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Logo do & don't (misuse examples), don't use special affects on the logo",
+      "url": "https://drive.google.com/uc?export=view&id=1oVGc3TZumyRHjlYXaBf6NPeclu5WGZLv",
+      "refs": [{ "type": "SLIDE", "id": 32 }]
+    },
+    {
+      "id": "asset_logo_international_inline-1",
+      "type": "LOGO",
+      "name": "International Inline Logo (horizontal lockup)",
+      "url": "https://drive.google.com/uc?export=view&id=1NRNPHYZ9iE4oIJ_cqMD6GrwX1ebsYpIH",
+      "refs": [{ "type": "SLIDE", "id": 33 }]
+    },
+    {
+      "id": "asset_logo_international_inline-2",
+      "type": "LOGO",
+      "name": "International Inline Logo (horizontal lockup), clear space around RedBull (in-line logo) must be at least 1/4 height of the sun",
+      "url": "https://drive.google.com/uc?export=view&id=1jo7YA1ByflxxOqLtEWbAcgIs8bfFkKNe",
+      "refs": [{ "type": "SLIDE", "id": 33 }]
+    },
+    {
+      "id": "asset_logo_international_inline-3",
+      "type": "LOGO",
+      "name": "International Inline Logo (horizontal lockup), minimum size 3cm",
+      "url": "https://drive.google.com/uc?export=view&id=1GQc9RXEpxJRkYvxDzgGw8CVa7fN1VA8-",
+      "refs": [{ "type": "SLIDE", "id": 33 }]
+    },
+    {
+      "id": "asset_logo_international_inline_usage-1",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Inline Logo usage examples, in-line logo on hoodie sleeves",
+      "url": "https://drive.google.com/uc?export=view&id=1cYV8OLwKEmApuRbR0U3HEWoDMkja2MmI",
+      "refs": [{ "type": "SLIDE", "id": 34 }]
+    },
+    {
+      "id": "asset_logo_international_inline_usage-2",
+      "type": "GUIDELINE_FIGURE",
+      "name": "International Inline Logo usage examples, in-line logo on narrow side of shop awning",
+      "url": "https://drive.google.com/uc?export=view&id=1fKJVntFBcg7oY7bBTWQmuuTXBxMhv9pM",
+      "refs": [{ "type": "SLIDE", "id": 34 }]
+    },
+
+    {
+      "id": "asset_logo_chinese_stacked",
+      "type": "LOGO",
+      "name": "Chinese Logo (stacked lockup)",
+      "url": "https://drive.google.com/uc?export=view&id=1ySTiNXRebtZcdw06t4IgTaeOUoTsVHmU",
+      "refs": [{ "type": "SLIDE", "id": 35 }]
+    },
+    {
+      "id": "asset_logo_chinese_clear_space",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo clear-space diagram",
+      "url": "https://drive.google.com/uc?export=view&id=1lB1iawDpN66I0KNiTajR2nfOmy321j61",
+      "refs": [{ "type": "SLIDE", "id": 36 }]
+    },
+    {
+      "id": "asset_logo_chinese_dimensions",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo dimensions",
+      "url": "https://drive.google.com/uc?export=view&id=1pIWlYp0O3MILeU4r6xv3a67CT-z1KxiN",
+      "refs": [{ "type": "SLIDE", "id": 36 }]
+    },
+    {
+      "id": "asset_logo_chinese_colorways-11",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo approved color usage, while color on blue background",
+      "url": "https://drive.google.com/uc?export=view&id=1IEoXhrIaa2TS8F9YfagRbVGn0d0uroNZ",
+      "refs": [
+        { "type": "SLIDE", "id": 37 },
+        { "type": "SLIDE", "id": 38 }
+      ]
+    },
+    {
+      "id": "asset_logo_chinese_colorways-12",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo approved color usage, while color on black background",
+      "url": "https://drive.google.com/uc?export=view&id=1-f47FFFmkYX3I2gYjh_whQsj-52l5DLQ",
+      "refs": [
+        { "type": "SLIDE", "id": 37 },
+        { "type": "SLIDE", "id": 38 }
+      ]
+    },
+    {
+      "id": "asset_logo_chinese_colorways-21",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo approved color usage, blue color on light background",
+      "url": "https://drive.google.com/uc?export=view&id=1mYCJ0b9GT_b1SDj2MPu9pcL5Ri--uumN",
+      "refs": [
+        { "type": "SLIDE", "id": 37 },
+        { "type": "SLIDE", "id": 38 }
+      ]
+    },
+    {
+      "id": "asset_logo_chinese_colorways-22",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo approved color usage, black color on light background",
+      "url": "https://drive.google.com/uc?export=view&id=16QiBOeeRdNJDvnI5GApZKTyJFYQYoubg",
+      "refs": [
+        { "type": "SLIDE", "id": 37 },
+        { "type": "SLIDE", "id": 38 }
+      ]
+    },
+    {
+      "id": "asset_logo_chinese_colorways-3",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo approved color usage, debossed stamp on leather",
+      "url": "https://drive.google.com/uc?export=view&id=1ZVnpu-xTWthY0KWYe_pZABJsWwnmX9nQ",
+      "refs": [
+        { "type": "SLIDE", "id": 37 },
+        { "type": "SLIDE", "id": 38 }
+      ]
+    },
+    {
+      "id": "asset_logo_chinese_colorways-4",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo approved color usage, rubber stamp",
+      "url": "https://drive.google.com/uc?export=view&id=1K3cOrgrx1a3_IGRYsvC-5bi2rXJZ0bf_",
+      "refs": [
+        { "type": "SLIDE", "id": 37 },
+        { "type": "SLIDE", "id": 38 }
+      ]
+    },
+    {
+      "id": "asset_logo_chinese_donts-1",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo do & don't (misuse examples), don't stretch logo",
+      "url": "https://drive.google.com/uc?export=view&id=1uFiFr80phDmm4RUYL3pQnTV0cnGbcovb",
+      "refs": [{ "type": "SLIDE", "id": 39 }]
+    },
+    {
+      "id": "asset_logo_chinese_donts-2",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo do & don't (misuse examples), don't use gradients or patterns in the logo",
+      "url": "https://drive.google.com/uc?export=view&id=1LHqQ74KzijyDvv-cPsALYDI1cOwCAFfr",
+      "refs": [{ "type": "SLIDE", "id": 39 }]
+    },
+    {
+      "id": "asset_logo_chinese_donts-3",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo do & don't (misuse examples), don't put an image within the logo",
+      "url": "https://drive.google.com/uc?export=view&id=1crBM__4z1RkHpuOb6ktO7pBtlthWCYLt",
+      "refs": [{ "type": "SLIDE", "id": 39 }]
+    },
+    {
+      "id": "asset_logo_chinese_donts-4",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo do & don't (misuse examples), don't break the logo apart",
+      "url": "https://drive.google.com/uc?export=view&id=1L2O0mcLy_KlvGV7tbrTGTl-gYEtoQ7Jd",
+      "refs": [{ "type": "SLIDE", "id": 39 }]
+    },
+    {
+      "id": "asset_logo_chinese_donts-5",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo do & don't (misuse examples), don't potray the Bull in outline and the Sun in full color",
+      "url": "https://drive.google.com/uc?export=view&id=1w5NPAdHcVOcOuSHKovV-odQfIPwneec5",
+      "refs": [{ "type": "SLIDE", "id": 39 }]
+    },
+    {
+      "id": "asset_logo_chinese_donts-6",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo do & don't (misuse examples), don't set the logo in a non-brand color",
+      "url": "https://drive.google.com/uc?export=view&id=1vUygYsm7LDMyPSHhR_QuefvUCKq0D3gO",
+      "refs": [{ "type": "SLIDE", "id": 39 }]
+    },
+    {
+      "id": "asset_logo_chinese_donts-7",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo do & don't (misuse examples), don't create your own logo",
+      "url": "https://drive.google.com/uc?export=view&id=1beFwwpUMHTtXDX8YaoiFPvJdgJuC8Kay",
+      "refs": [{ "type": "SLIDE", "id": 39 }]
+    },
+    {
+      "id": "asset_logo_chinese_donts-8",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo do & don't (misuse examples), don't wrap the logo",
+      "url": "https://drive.google.com/uc?export=view&id=1HeiihfubedCZDupmx5uhd8qg-U5fbhd7",
+      "refs": [{ "type": "SLIDE", "id": 39 }]
+    },
+    {
+      "id": "asset_logo_chinese_donts-9",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo do & don't (misuse examples), don't make the logo multiple colors",
+      "url": "https://drive.google.com/uc?export=view&id=1mrwSD7T_N1dLB8-N4jbqKbun-77QwqAH",
+      "refs": [{ "type": "SLIDE", "id": 39 }]
+    },
+    {
+      "id": "asset_logo_chinese_donts-10",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Logo do & don't (misuse examples), don't use special affects on the logo",
+      "url": "https://drive.google.com/uc?export=view&id=1hQKdaamoEAGy8d8x0RSohJCsfw6uYP4q",
+      "refs": [{ "type": "SLIDE", "id": 39 }]
+    },
+    {
+      "id": "asset_logo_chinese_inline-1",
+      "type": "LOGO",
+      "name": "Chinese Inline Logo (horizontal lockup)",
+      "url": "https://drive.google.com/uc?export=view&id=1ZbAIfy32MwRFGeq78RZ3mvTgH8SvbSxN",
+      "refs": [{ "type": "SLIDE", "id": 40 }]
+    },
+    {
+      "id": "asset_logo_chinese_inline-2",
+      "type": "LOGO",
+      "name": "Chinese Inline Logo (horizontal lockup), clear space around RedBull (in-line logo) must be at least 1/4 height of the sun",
+      "url": "https://drive.google.com/uc?export=view&id=1V8euFg_oule0UULBl4mErmmHCCKpZIU9",
+      "refs": [{ "type": "SLIDE", "id": 40 }]
+    },
+    {
+      "id": "asset_logo_chinese_inline-3",
+      "type": "LOGO",
+      "name": "Chinese Inline Logo (horizontal lockup), minimum size 3cm",
+      "url": "https://drive.google.com/uc?export=view&id=1ILlXyuQoT28T2xR853UTD0wlXpliIdmd",
+      "refs": [{ "type": "SLIDE", "id": 40 }]
+    },
+    {
+      "id": "asset_logo_chinese_inline_usage-1",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Inline Logo usage examples, in-line logo on hoodie sleeves",
+      "url": "https://drive.google.com/uc?export=view&id=1NlTq7xmd_03uZk9gDnaxrNo1ZLctLD50",
+      "refs": [{ "type": "SLIDE", "id": 41 }]
+    },
+    {
+      "id": "asset_logo_chinese_inline_usage-2",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Chinese Inline Logo usage examples, in-line logo on narrow side of shop awning",
+      "url": "https://drive.google.com/uc?export=view&id=16c4Yc5ECjBIWXv_vJlm0zxiao9x-EeHg",
+      "refs": [{ "type": "SLIDE", "id": 41 }]
+    },
+
+    {
+      "id": "asset_logo_premium_stacked",
+      "type": "LOGO",
+      "name": "Logo for premium material (stacked lockup)",
+      "url": "https://drive.google.com/uc?export=view&id=12hareNkaMk1idB67F9-Xus9FMp2NFW_o",
+      "refs": [{ "type": "SLIDE", "id": 42 }]
+    },
+    {
+      "id": "asset_logo_premium_clear_space",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material clear-space diagram",
+      "url": "https://drive.google.com/uc?export=view&id=1JAtdlX9Ek5pVHKV7_acbhgm1EHB-tySa",
+      "refs": [{ "type": "SLIDE", "id": 43 }]
+    },
+    {
+      "id": "asset_logo_premium_dimensions",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material dimensions",
+      "url": "https://drive.google.com/uc?export=view&id=1ZlwQskLcX563WdNkGF2JNAVY_5feho7k",
+      "refs": [{ "type": "SLIDE", "id": 43 }]
+    },
+    {
+      "id": "asset_logo_premium_colorways-11",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material approved color usage, while color on blue background",
+      "url": "https://drive.google.com/uc?export=view&id=1Lp4DuKHnsZe1IdQpA3l9m2WZ1FzIoJeF",
+      "refs": [
+        { "type": "SLIDE", "id": 45 },
+        { "type": "SLIDE", "id": 44 }
+      ]
+    },
+    {
+      "id": "asset_logo_premium_colorways-12",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material approved color usage, while color on black background",
+      "url": "https://drive.google.com/uc?export=view&id=1cmBJZsPAjb7eivbSprlWWkVCmgrd82-0",
+      "refs": [
+        { "type": "SLIDE", "id": 45 },
+        { "type": "SLIDE", "id": 44 }
+      ]
+    },
+    {
+      "id": "asset_logo_premium_colorways-21",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material approved color usage, blue color on light background",
+      "url": "https://drive.google.com/uc?export=view&id=1s1EPyJA8sKdC_rFtRdMEr2Wj8zazVRMu",
+      "refs": [
+        { "type": "SLIDE", "id": 45 },
+        { "type": "SLIDE", "id": 44 }
+      ]
+    },
+    {
+      "id": "asset_logo_premium_colorways-22",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material approved color usage, black color on light background",
+      "url": "https://drive.google.com/uc?export=view&id=10NVNg3gdLL2pTB4ZF9nLgKZpSjYUAtYT",
+      "refs": [
+        { "type": "SLIDE", "id": 45 },
+        { "type": "SLIDE", "id": 44 }
+      ]
+    },
+    {
+      "id": "asset_logo_premium_colorways-3",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material approved color usage, debossed stamp on leather",
+      "url": "https://drive.google.com/uc?export=view&id=1LLVA5_r6ESn1F_rCa08bvRQf_5Cp2UMP",
+      "refs": [
+        { "type": "SLIDE", "id": 45 },
+        { "type": "SLIDE", "id": 44 }
+      ]
+    },
+    {
+      "id": "asset_logo_premium_colorways-4",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material approved color usage, rubber stamp",
+      "url": "https://drive.google.com/uc?export=view&id=1wLV5mE7xpoepeAxMHNttv8UDn4A4EU4Z",
+      "refs": [
+        { "type": "SLIDE", "id": 45 },
+        { "type": "SLIDE", "id": 44 }
+      ]
+    },
+    {
+      "id": "asset_logo_premium_donts-1",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material do & don't (misuse examples), don't stretch logo",
+      "url": "https://drive.google.com/uc?export=view&id=1JnUV2h9-ZUt2d7_gwCeVLh5B0hOaQSRg",
+      "refs": [{ "type": "SLIDE", "id": 46 }]
+    },
+    {
+      "id": "asset_logo_premium_donts-2",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material do & don't (misuse examples), don't use gradients or patterns in the logo",
+      "url": "https://drive.google.com/uc?export=view&id=1WSY6EoGX3DxPMVtjAaAmEHNSNHThrsMV",
+      "refs": [{ "type": "SLIDE", "id": 46 }]
+    },
+    {
+      "id": "asset_logo_premium_donts-3",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material do & don't (misuse examples), don't put an image within the logo",
+      "url": "https://drive.google.com/uc?export=view&id=11aYlt-E8X4z_8s2qg_zAvSYssMNALGBf",
+      "refs": [{ "type": "SLIDE", "id": 46 }]
+    },
+    {
+      "id": "asset_logo_premium_donts-4",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material do & don't (misuse examples), don't break the logo apart",
+      "url": "https://drive.google.com/uc?export=view&id=1Gr0Xs4oo-WtHxMiNaFf4zgk12Eo2ZV18",
+      "refs": [{ "type": "SLIDE", "id": 46 }]
+    },
+    {
+      "id": "asset_logo_premium_donts-5",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material do & don't (misuse examples), don't potray the Bull in outline and the Sun in full color",
+      "url": "https://drive.google.com/uc?export=view&id=1Cg8hx-N1Hwxot_UePJolKQyPN0abbXSr",
+      "refs": [{ "type": "SLIDE", "id": 4645 }]
+    },
+    {
+      "id": "asset_logo_premium_donts-6",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material do & don't (misuse examples), don't set the logo in a non-brand color",
+      "url": "https://drive.google.com/uc?export=view&id=1kNEPLencN-pmS7b0yNZbIDt3esX2pvXh",
+      "refs": [{ "type": "SLIDE", "id": 46 }]
+    },
+    {
+      "id": "asset_logo_premium_donts-7",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material do & don't (misuse examples), don't create your own logo",
+      "url": "https://drive.google.com/uc?export=view&id=1t09XW3auyJqXXlOOvPSjCrdIpIe67mF1",
+      "refs": [{ "type": "SLIDE", "id": 46 }]
+    },
+    {
+      "id": "asset_logo_premium_donts-8",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material do & don't (misuse examples), don't wrap the logo",
+      "url": "https://drive.google.com/uc?export=view&id=16IL7L3mbawmJudyD7E_eY4LJJNDqStZR",
+      "refs": [{ "type": "SLIDE", "id": 46 }]
+    },
+    {
+      "id": "asset_logo_premium_donts-9",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material do & don't (misuse examples), don't make the logo multiple colors",
+      "url": "https://drive.google.com/uc?export=view&id=13KGwyiycsEERCpnprtI9zeyJVztURhGz",
+      "refs": [{ "type": "SLIDE", "id": 46 }]
+    },
+    {
+      "id": "asset_logo_premium_donts-10",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Logo for premium material do & don't (misuse examples), don't use special affects on the logo",
+      "url": "https://drive.google.com/uc?export=view&id=1qbqiu8aqrlsEcAQPLSHvPGH0Y1akWXyh",
+      "refs": [{ "type": "SLIDE", "id": 46 }]
+    },
+    {
+      "id": "asset_campaign_logo_collab_redbull_x_template-1",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Collaboration lockup template: Red Bull X Partner (right/under placement)",
+      "url": "https://drive.google.com/uc?export=view&id=1uDd4OwYrCPP1u_t7-tfk84q6WvS9WZ9p",
+      "usage_notes": "Defines the collaboration lockup construction ('Red Bull X').",
+      "refs": [{ "type": "SLIDE", "id": 48 }]
+    },
+    {
+      "id": "asset_campaign_logo_collab_redbull_x_template-2",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Collaboration lockup template: Red Bull X Partner (right/under placement)",
+      "url": "https://drive.google.com/uc?export=view&id=1x_6W1n2vte7zw_SzDD9rN1JBTpiRFbR6",
+      "usage_notes": "Defines the collaboration lockup construction ('Red Bull X').",
+      "refs": [{ "type": "SLIDE", "id": 48 }]
+    },
+    {
+      "id": "asset_campaign_logo_collab_example_pavegen",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Example of collaboration (PAVEGEN)",
+      "url": "https://drive.google.com/uc?export=view&id=1P8mDTbh6zv9ICwgD8OvE12hCqz4iCsuh",
+      "usage_notes": "Illustrative example of Red Bull X collaboration usage.",
+      "refs": [{ "type": "SLIDE", "id": 49 }]
+    },
+    {
+      "id": "asset_campaign_logo_owned_projects_composite_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Composite logo example for Red Bull-owned projects (structure unchanged)",
+      "url": "https://drive.google.com/uc?export=view&id=18OsIKu8gKhEE5-q_fjJI4sUXW1SW2jQ4",
+      "usage_notes": "Shows how to create a composite logo for owned projects without altering the Red Bull logo structure.",
+      "refs": [{ "type": "SLIDE", "id": 50 }]
+    },
+    {
+      "id": "asset_campaign_logo_regulation_clear_space_1_8_sun_international",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Campaign logo regulation (International): clear space ≥ 1/8 sun height",
+      "url": "https://drive.google.com/uc?export=view&id=1eo7Tu_jOTX9U-W6p9R90ORgf-uN0cxHR",
+      "usage_notes": "Clear-space measurement diagram for campaign logo usage (International).",
+      "refs": [{ "type": "SLIDE", "id": 51 }]
+    },
+    {
+      "id": "asset_campaign_logo_regulation_standard_thai_without_kratingdaeng",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Campaign logo regulation (Standard/Thai): Thai logo without Kratingdaeng permitted + clear space rule",
+      "url": "https://drive.google.com/uc?export=view&id=13p5H-Ubxwv7WcsWTIb_oqY5w6fjQWxQK",
+      "usage_notes": "States Thai logo without Kratingdaeng is permitted and reiterates clear-space rule.",
+      "refs": [{ "type": "SLIDE", "id": 52 }]
+    },
+    {
+      "id": "asset_campaign_logo_regulation_campaign_name_height_max_4_suns",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Campaign logo regulation: campaign name height ≤ 4× sun height",
+      "url": "https://drive.google.com/uc?export=view&id=1TPf4uAq4fT2yoUC8hVLkmIQXtjG2AtOj",
+      "usage_notes": "Sizing constraint diagram for campaign name in campaign logo lockups.",
+      "refs": [{ "type": "SLIDE", "id": 53 }]
+    },
+    {
+      "id": "asset_campaign_logo_regulation_example_clear_space_1_8_sun",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Campaign logo regulations example: reiterates clear space ≥ 1/8 sun height (and Thai without Kratingdaeng permitted)",
+      "url": "https://drive.google.com/uc?export=view&id=143ew5KuOsimKN51cwW74wwTlKjPrzAzG",
+      "usage_notes": "Another worked example applying the regulations.",
+      "refs": [{ "type": "SLIDE", "id": 54 }]
+    },
+    {
+      "id": "asset_color_usage_spirited_blue_packshot_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Color usage example: Spirited Blue background with packshots",
+      "url": "https://drive.google.com/uc?export=view&id=1Sxdnl6pqSrRunkClcMyBA0iPYN07u09-",
+      "usage_notes": "Example application of Spirited Blue in brand visuals.",
+      "refs": [{ "type": "SLIDE", "id": 57 }]
+    },
+    {
+      "id": "asset_color_usage_flavor_packshots_example_1",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Flavor color usage example (packshots on new flavor colors)",
+      "url": "https://drive.google.com/uc?export=view&id=10TcnyeDQZ3cCYk8KkbI7uHn5q1eDXXD-",
+      "usage_notes": "Example application of new flavor colors with product packshots.",
+      "refs": [{ "type": "SLIDE", "id": 64 }]
+    },
+    {
+      "id": "asset_color_usage_flavor_packshots_example_2",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Flavor color usage example (multi-color blocks with packshots)",
+      "url": "https://drive.google.com/uc?export=view&id=1aP1q5-opOznOzUM2YsaqKuhkRsTaXZns",
+      "usage_notes": "Example application of flavor colors in block compositions with packshots.",
+      "refs": [{ "type": "SLIDE", "id": 65 }]
+    },
+    {
+      "id": "asset_color_usage_flavor_packshots_example_3",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Flavor color usage example (packshot grouping on new flavor colors)",
+      "url": "https://drive.google.com/uc?export=view&id=1cYpT6FtLpM_XJLOKWEe3ou26w1ikz-ni",
+      "usage_notes": "Example packshot group composition using new flavor colors.",
+      "refs": [{ "type": "SLIDE", "id": 66 }]
+    },
+    {
+      "id": "asset_packshot_rule_1_water_splashes_vs_ice",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Packshot Rule 1: don't use water splashes and ice together (with exception)",
+      "url": "https://drive.google.com/uc?export=view&id=1GwrnDDzNFTU7Ut3ugcDNNipE7z74sHnt",
+      "usage_notes": "Rule diagram with examples for splashes/ice usage.",
+      "refs": [{ "type": "SLIDE", "id": 68 }]
+    },
+    {
+      "id": "asset_packshot_rule_2_no_halos_or_magic_glow",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Packshot Rule 2: don't add halos or glowing/magic effects around the pack",
+      "url": "https://drive.google.com/uc?export=view&id=12x3qs3lwuBAypLCJXWZE2Dw6x8bpBKXb",
+      "usage_notes": "Rule diagram showing prohibited halo/glow effects; allows real-world elements.",
+      "refs": [{ "type": "SLIDE", "id": 69 }]
+    },
+    {
+      "id": "asset_packshot_rule_3_no_above_angle",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Packshot Rule 3: don't shoot the pack from an above angle",
+      "url": "https://drive.google.com/uc?export=view&id=1t5AqqlMNWKdrvlsjQHsjDxYuYqRPO5qT",
+      "usage_notes": "Rule diagram for camera angle (front or slightly lower).",
+      "refs": [{ "type": "SLIDE", "id": 70 }]
+    },
+    {
+      "id": "asset_packshot_rule_4_tilt_policy",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Packshot Rule 4: tilt policy (lifestyle vs still life; max 50 degrees)",
+      "url": "https://drive.google.com/uc?export=view&id=1E0hfTY5EPrQQcItlmz9zPk7mkPnH1j9_",
+      "usage_notes": "Rule diagram defining when tilting is allowed and max tilt angle.",
+      "refs": [{ "type": "SLIDE", "id": 71 }]
+    },
+    {
+      "id": "asset_typography_acumin_pro_specimen",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Typography specimen: Acumin Pro (headline & tagline font look/feel)",
+      "url": "https://drive.google.com/uc?export=view&id=1elWXoTu8FP07i-fYpcjeZI0BeDFDjk1K",
+      "usage_notes": "Visual reference for the headline/tagline type style.",
+      "refs": [{ "type": "SLIDE", "id": 89 }]
+    },
+    {
+      "id": "asset_layout_system_redbull_sun_extraction_diagram",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Layout system key concept: extract/use Red Bull Sun as measurement unit",
+      "url": "https://drive.google.com/uc?export=view&id=11Qw6vDqQ2BFH18-hwM2xjbRPG-wfpvFK",
+      "usage_notes": "Diagram showing the Red Bull Sun used as the base unit for building the template system.",
+      "refs": [{ "type": "SLIDE", "id": 92 }]
+    },
+    {
+      "id": "asset_layout_system_master_rule_example_grid",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Layout system master rule: proportion elements using the sun unit (worked example with grid)",
+      "url": "https://drive.google.com/uc?export=view&id=1c-F07cpo5qXWWFv4q_0I5tJcvgwCqDpk",
+      "usage_notes": "Worked example of logo placement + proportional layout using sun-unit measurements.",
+      "refs": [{ "type": "SLIDE", "id": 93 }]
+    },
+    {
+      "id": "asset_template_digital_post_1x1",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Template format: Digital Post 1:1",
+      "url": "https://drive.google.com/uc?export=view&id=1Rr5BAzlRdYch5I4oajG9rClx-i4b4FFC",
+      "usage_notes": "Illustrates the 1:1 post format template.",
+      "refs": [{ "type": "SLIDE", "id": 105 }]
+    },
+    {
+      "id": "asset_template_social_stories_9x16",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Template format: Social Media Stories / Vertical assets (9:16)",
+      "url": "https://drive.google.com/uc?export=view&id=15bDbnOD4_kwfkUX_jIvj_5vVXQK7Mgx3",
+      "usage_notes": "Illustrates the vertical stories format template.",
+      "refs": [{ "type": "SLIDE", "id": 106 }]
+    },
+
+    {
+      "id": "asset_core_packshot_kv_splashes_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Example: Core pack shot KV with water splashes",
+      "url": "https://drive.google.com/uc?export=view&id=1yEH6LeycE5BUVB6ZSYG6x-LDwNyCpr2R",
+      "usage_notes": "Illustrates the core packshot KV look with splashes.",
+      "refs": [{ "type": "SLIDE", "id": 110 }]
+    },
+    {
+      "id": "asset_core_packshot_kv_ice_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Example: Core pack shot KV with ice",
+      "url": "https://drive.google.com/uc?export=view&id=1bWzQO6MlcOGIpgHiugolzXt8DJpry3s6",
+      "usage_notes": "Illustrates the core packshot KV look with ice.",
+      "refs": [{ "type": "SLIDE", "id": 111 }]
+    },
+    {
+      "id": "asset_kv_multiple_packs_with_ice_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Example: KV with multiple packs and ice",
+      "url": "https://drive.google.com/uc?export=view&id=1nBl5ADbBZyr9a_xXSzdwVDCch-U_Kz2F",
+      "usage_notes": "Illustrates multi-pack KV composition with ice.",
+      "refs": [{ "type": "SLIDE", "id": 112 }]
+    },
+
+    {
+      "id": "asset_iconography_sun_flexible_examples",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Icons graphic example: Use Red Bull Sun as the main flexible graphic",
+      "url": "https://drive.google.com/uc?export=view&id=1YVt4m54EjK9HuBjN0AJGF7AK5ljoD_We",
+      "usage_notes": "Illustrates how the Sun element can be used as a flexible icon/graphic base.",
+      "refs": [{ "type": "SLIDE", "id": 113 }]
+    },
+
+    {
+      "id": "asset_flavor_packshot_kv_example_1",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Example: Flavor pack shot KV (variant 1)",
+      "url": "https://drive.google.com/uc?export=view&id=17Nx5phaoFLNGlII9Vx8GP7vrra5GZ8Zl",
+      "usage_notes": "Illustrates flavor KV composition.",
+      "refs": [{ "type": "SLIDE", "id": 115 }]
+    },
+    {
+      "id": "asset_flavor_packshot_kv_example_2",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Example: Flavor pack shot KV (variant 2)",
+      "url": "https://drive.google.com/uc?export=view&id=1GrKEOGW_cX4yqPZbSfeOoYo3r-WFxbIO",
+      "usage_notes": "Illustrates flavor KV composition.",
+      "refs": [{ "type": "SLIDE", "id": 116 }]
+    },
+    {
+      "id": "asset_flavor_packshot_kv_example_3",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Example: Flavor pack shot KV (variant 3)",
+      "url": "https://drive.google.com/uc?export=view&id=1KvuICdXg-ceivb1OHf3RkReUjpIJq6KR",
+      "usage_notes": "Illustrates flavor KV composition.",
+      "refs": [{ "type": "SLIDE", "id": 117 }]
+    },
+    {
+      "id": "asset_flavor_packshots_overview",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Flavor packshots overview",
+      "url": "https://drive.google.com/uc?export=view&id=1esaC4kHMujaroZ1AmH1GSGc6BYZ5Sxhh",
+      "usage_notes": "Illustrative overview of flavor packshots.",
+      "refs": [{ "type": "SLIDE", "id": 118 }]
+    },
+
+    {
+      "id": "asset_lifestyle_kv_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Example: Lifestyle KV",
+      "url": "https://drive.google.com/uc?export=view&id=1cwK_x2KD0O-9Pd-l-Np-otoBoH_cahTj",
+      "usage_notes": "Illustrates lifestyle KV composition under the brand system.",
+      "refs": [{ "type": "SLIDE", "id": 121 }]
+    },
+    {
+      "id": "asset_on_situ_ooh_examples_set_1",
+      "type": "GUIDELINE_FIGURE",
+      "name": "On-situ OOH examples (building-mounted billboards)",
+      "url": "https://drive.google.com/uc?export=view&id=1AYYe_FsFyVY9frDqvWlWa0EDznbbqQyy",
+      "usage_notes": "Illustrates how the campaign layout/pack/logo appear in real OOH billboard environments.",
+      "refs": [{ "type": "SLIDE", "id": 131 }]
+    },
+    {
+      "id": "asset_on_situ_ooh_examples_set_2",
+      "type": "GUIDELINE_FIGURE",
+      "name": "On-situ OOH examples (street pole banner + billboard + digital signage)",
+      "url": "https://drive.google.com/uc?export=view&id=15tgCDMhlTNJvO4NiJ3IYtPHKiRmXdSHq",
+      "usage_notes": "Illustrates multi-format OOH executions across different physical placements.",
+      "refs": [{ "type": "SLIDE", "id": 132 }]
+    },
+    {
+      "id": "asset_on_situ_ooh_examples_set_3",
+      "type": "GUIDELINE_FIGURE",
+      "name": "On-situ OOH examples (bus shelter + city lightbox)",
+      "url": "https://drive.google.com/uc?export=view&id=1PidbqA-jpx6LA5aLAy_7uRbVt5N-fjYJ",
+      "usage_notes": "Illustrates OOH executions in transit and street furniture contexts.",
+      "refs": [{ "type": "SLIDE", "id": 133 }]
+    },
+    {
+      "id": "asset_on_situ_ooh_examples_set_4",
+      "type": "GUIDELINE_FIGURE",
+      "name": "On-situ OOH examples (large-format multi-placement city scene)",
+      "url": "https://drive.google.com/uc?export=view&id=1l920CvIgnt69-vgv1O2VGrE2Bfbb5R1v",
+      "usage_notes": "Illustrates how multiple executions can coexist in a single city environment.",
+      "refs": [{ "type": "SLIDE", "id": 134 }]
+    },
+    {
+      "id": "asset_on_situ_digital_device_mockups",
+      "type": "GUIDELINE_FIGURE",
+      "name": "On-situ DIGITAL examples (tablet/laptop/phone device mockups)",
+      "url": "https://drive.google.com/uc?export=view&id=1Youf2Y5fRLLzyBN_Ga87vAerzeZ8uf3h",
+      "usage_notes": "Illustrates the campaign system rendered across device screens.",
+      "refs": [{ "type": "SLIDE", "id": 135 }]
+    },
+    {
+      "id": "asset_on_situ_digital_social_context",
+      "type": "GUIDELINE_FIGURE",
+      "name": "On-situ DIGITAL examples (social/platform context)",
+      "url": "https://drive.google.com/uc?export=view&id=13vTE-9fjsI-WxuRGlva1w8nIXZu5yAE8",
+      "usage_notes": "Illustrates how brand visuals appear within social/platform UI contexts.",
+      "refs": [{ "type": "SLIDE", "id": 136 }]
+    },
+    {
+      "id": "asset_promo_two_red_bulls_do",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Two Red Bulls usage: DO  typography mixing warning",
+      "url": "https://drive.google.com/uc?export=view&id=11npf4DFdrReyMgUBXqgWosI71bz2PdJN",
+      "usage_notes": "Illustrates correct vs incorrect usage and reinforces no separation/recomposition/alteration; 'RED BULL' typography cannot be mixed.",
+      "refs": [{ "type": "SLIDE", "id": 138 }]
+    },
+    {
+      "id": "asset_promo_two_red_bulls_dont",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Two Red Bulls usage: DON'T + typography mixing warning",
+      "url": "https://drive.google.com/uc?export=view&id=1zHfCArIK6lkUYYZ9Ym9ESn38SeWjERwE",
+      "usage_notes": "Illustrates correct vs incorrect usage and reinforces no separation/recomposition/alteration; 'RED BULL' typography cannot be mixed.",
+      "refs": [{ "type": "SLIDE", "id": 138 }]
+    },
+    {
+      "id": "asset_promo_one_red_bull_rules_overview",
+      "type": "GUIDELINE_FIGURE",
+      "name": "One Red Bull: allowed single-left-bull-with-sun construction (cropping/rotation constraints)",
+      "url": "https://drive.google.com/uc?export=view&id=1UJ1Q4BjgRsw2lDSH1z-MJpiQ3FzMSknz",
+      "usage_notes": "Illustrates single-bull usage and constraints (no downward head, keep front legs, preserve proportions).",
+      "refs": [{ "type": "SLIDE", "id": 139 }]
+    },
+    {
+      "id": "asset_promo_one_red_bull_do",
+      "type": "GUIDELINE_FIGURE",
+      "name": "One Red Bull usage: DO (size/cropping/position constraints)",
+      "url": "https://drive.google.com/uc?export=view&id=1fFDEvySqyrcWvjA22ZPJptgi9K_mrk1w",
+      "usage_notes": "Illustrates placement constraints and common mistakes (too small, downward motion, etc.).",
+      "refs": [{ "type": "SLIDE", "id": 140 }]
+    },
+    {
+      "id": "asset_promo_one_red_bull_dont",
+      "type": "GUIDELINE_FIGURE",
+      "name": "One Red Bull usage: DON'T (size/cropping/position constraints)",
+      "url": "https://drive.google.com/uc?export=view&id=1__-7ri1JgwkAXW56cKOo6FGjGPjH4jyP",
+      "usage_notes": "Illustrates placement constraints and common mistakes (too small, downward motion, etc.).",
+      "refs": [{ "type": "SLIDE", "id": 140 }]
+    },
+    {
+      "id": "asset_promo_mugs_and_bottles_material_rule_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Mugs and bottles: allowed on natural material textures (no photographic background)",
+      "url": "https://drive.google.com/uc?export=view&id=1TvNm4ihnXbUzDZdsngEPzpJymSM6hPpS",
+      "usage_notes": "Illustrates the material/background constraint for logo application.",
+      "refs": [{ "type": "SLIDE", "id": 141 }]
+    },
+    {
+      "id": "asset_promo_fashion_items_two_sides_cropping_rules",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Fashion items: two-sides consistency + cropping must keep front legs",
+      "url": "https://drive.google.com/uc?export=view&id=10aEOYrWUhFvP4Wfyqr4OY8AcHJxftrBx",
+      "usage_notes": "Illustrates near-identical sizing across sides and safe cropping behavior.",
+      "refs": [{ "type": "SLIDE", "id": 142 }]
+    },
+    {
+      "id": "asset_promo_fashion_items_flexible_usage_examples",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Fashion items: flexible usage with meaningful lines/sentences",
+      "url": "https://drive.google.com/uc?export=view&id=1xuOnx3XxdK2hubPcexN3GQcvRJKWu4Z3",
+      "usage_notes": "Illustrates combining the logo with additional meaningful text lines (fashion context).",
+      "refs": [{ "type": "SLIDE", "id": 143 }]
+    },
+    {
+      "id": "asset_promo_functional_items_examples",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Functional items examples (application placements)",
+      "url": "https://drive.google.com/uc?export=view&id=1LIG90HsYKW_b8phbzUt_tr_mwPxNL8vM",
+      "usage_notes": "Illustrates practical placements on functional objects.",
+      "refs": [{ "type": "SLIDE", "id": 144 }]
+    },
+    {
+      "id": "asset_promo_car_freshener_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Car freshener example",
+      "url": "https://drive.google.com/uc?export=view&id=1Dd65Ubme17a0LczblIGrl_c-SuMAQk6W",
+      "usage_notes": "Illustrates a hanging promotional item using the mark.",
+      "refs": [{ "type": "SLIDE", "id": 145 }]
+    },
+    {
+      "id": "asset_promo_sofa_taxi_motorbike_stand_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Red Bull sofa for taxi/motorbike stand (example application)",
+      "url": "https://drive.google.com/uc?export=view&id=1copjHM16whG_c1d1L-W3Q7ebVjCDU3RY",
+      "usage_notes": "Illustrates large-object logo application in real environment.",
+      "refs": [{ "type": "SLIDE", "id": 146 }]
+    },
+    {
+      "id": "asset_promo_trade_stand_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Trade stand example",
+      "url": "https://drive.google.com/uc?export=view&id=17LP7AO0HLEHPnlmsbXwQnRoj-zdfuzu3",
+      "usage_notes": "Illustrates stand branding application.",
+      "refs": [{ "type": "SLIDE", "id": 147 }]
+    },
+    {
+      "id": "asset_promo_exhibition_booth_core_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Exhibition booth example (Core)",
+      "url": "https://drive.google.com/uc?export=view&id=1ULkoEjR0A9JyJkVAcjEn8aNhZe2VMnlt",
+      "usage_notes": "Illustrates booth branding system for Core.",
+      "refs": [{ "type": "SLIDE", "id": 148 }]
+    },
+    {
+      "id": "asset_promo_exhibition_booth_flavor_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Exhibition booth example (Flavor)",
+      "url": "https://drive.google.com/uc?export=view&id=1mnbxqlb0M9awnCMHpF_hxbdxKQteg6Gb",
+      "usage_notes": "Illustrates booth branding system for Flavor colors.",
+      "refs": [{ "type": "SLIDE", "id": 149 }]
+    },
+    {
+      "id": "asset_promo_event_or_expo_example_core",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Event/Expo example (Core theme)",
+      "url": "https://drive.google.com/uc?export=view&id=1RZCWAgTfeiQbhXcR0jMHS3cheL502j5D",
+      "usage_notes": "Illustrates event stand composition and brand element placement in an expo environment.",
+      "refs": [{ "type": "SLIDE", "id": 150 }]
+    },
+    {
+      "id": "asset_promo_event_or_expo_example_flavor",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Event/Expo example (Flavor theme)",
+      "url": "https://drive.google.com/uc?export=view&id=1YGh3MIfb27n6jZGFip-0-AkzMcpuD5fh",
+      "usage_notes": "Illustrates event stand composition using flavor color blocks.",
+      "refs": [{ "type": "SLIDE", "id": 152 }]
+    },
+    {
+      "id": "asset_promo_mc_attire_examples_do",
+      "type": "GUIDELINE_FIGURE",
+      "name": "MC style of attire: acceptable placements (DO examples)",
+      "url": "https://drive.google.com/uc?export=view&id=1AJfivA9ZMqboJDMH5VDmqo8CDCzWlxQ0",
+      "usage_notes": "Illustrates acceptable MC attire styling and bold logo placement (upper body).",
+      "refs": [{ "type": "SLIDE", "id": 154 }]
+    },
+    {
+      "id": "asset_promo_mc_attire_examples_do_2",
+      "type": "GUIDELINE_FIGURE",
+      "name": "MC style of attire: acceptable placements (DO examples - additional)",
+      "url": "https://drive.google.com/uc?export=view&id=1-5g5eDnugW4t8MWfssaOq3WFQ266bRBp",
+      "usage_notes": "Additional DO examples for MC attire.",
+      "refs": [{ "type": "SLIDE", "id": 155 }]
+    },
+    {
+      "id": "asset_promo_mc_attire_dont",
+      "type": "GUIDELINE_FIGURE",
+      "name": "MC style of attire: DON'T examples (too exposed / cheap / misleading)",
+      "url": "https://drive.google.com/uc?export=view&id=1tiisLyvuF4M-mESKcfTgnNJBNtfqy181",
+      "usage_notes": "Illustrates prohibited MC attire presentation.",
+      "refs": [{ "type": "SLIDE", "id": 156 }]
+    },
+    {
+      "id": "asset_promo_two_red_bulls_do_dont",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Two Red Bulls usage: DO / DON'T",
+      "url": "https://drive.google.com/uc?export=view&id=1Uze4FVqOjtDhOj_AJ7e5OQ2U_Wzwu9Pa",
+      "usage_notes": "Illustrates prohibited separation/recomposition/alteration and typography mixing.",
+      "refs": [{ "type": "SLIDE", "id": 160 }]
+    },
+    {
+      "id": "asset_promo_one_red_bull_rules_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "One Red Bull: single-left-bull-with-sun (rotation/cropping constraints)",
+      "url": "https://drive.google.com/uc?export=view&id=11FDr53oNTziVP2kwATO1QCCNLFEMXyZy",
+      "usage_notes": "Illustrates allowed construction and key constraints (keep front legs, no downward head, preserve proportions).",
+      "refs": [{ "type": "SLIDE", "id": 161 }]
+    },
+    {
+      "id": "asset_cgi_storytelling_no_special_effects_example",
+      "type": "GUIDELINE_FIGURE",
+      "name": "CGI/storytelling: DON'T add special effects (no fake superpowers) example",
+      "url": "https://drive.google.com/uc?export=view&id=14VebCRY-gCZNhTO9zpxV8Wgfy0a6Qhlz",
+      "usage_notes": "Illustrates prohibited special-effects overlay in storytelling.",
+      "refs": [{ "type": "SLIDE", "id": 165 }]
+    },
+    {
+      "id": "asset_cgi_bumping_bull_end_scene_reference",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Bumping bull graphic end scene (recommended sign-off version)",
+      "url": "https://drive.google.com/uc?export=view&id=1UxpVckTBHnKisqmqBqJLObcOzulORmN-",
+      "usage_notes": "Reference end-scene to sign off films consistently.",
+      "refs": [{ "type": "SLIDE", "id": 167 }]
+    },
+    {
+      "id": "asset_bumping_bulls_donts_grid",
+      "type": "GUIDELINE_FIGURE",
+      "name": "Bumping bulls CGI: DON'Ts (don’t mix with pack, don’t change fonts, don’t deform logo)",
+      "url": "https://drive.google.com/uc?export=view&id=1WQBWFS8pYNCfmsD5G_kwV6zuL1omlY9J",
+      "usage_notes": "Visual grid of incorrect uses: mixing bumping bull with pack, writing 'RED BULL' with other fonts, and altering logo form.",
+      "refs": [{ "type": "SLIDE", "id": 168 }]
+    }
+  ],
+  "appendix_global_direction": {
+    "global_brand_vision_2024_2026": {
+      "three_year_vision": "To be an unbeatable leader in Energy Drink in Asia who energizes different groups of consumer anywhere anytime with superior value propositions.",
+      "mission": [
+        "Build Red Bull as a cool, younger and meaningful brand to all consumer groups.",
+        "Offer ED products with the right balance of functional and emotional benefit, with Global Portfolio Architecture yet addressing local needs."
+      ],
+      "top_priorities": [
+        "BUILD_BRAND_LOVE_AND_MEANINGFUL_EXPERIENCES",
+        "GROW_THE_CORE",
+        "RECRUIT_NEW_GEN",
+        "REDUCE_NEGATIVE_PERCEPTION_THROUGH_EDUCATION",
+        "DRIVE_FORWARD_THINKING_INITIATIVES"
+      ]
+    }
+  }
+}

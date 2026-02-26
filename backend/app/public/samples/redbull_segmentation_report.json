@@ -1,0 +1,141 @@
+{
+  "brand": "Red Bull",
+  "reportType": "segmentation_by_stage",
+  "segmentationLogic": {
+    "principle": "Segment customers by the level of attribute data available; use engagement to enrich data and trigger purchase.",
+    "northStarGoal": "Move customers to higher stages with Red Bull."
+  },
+  "stages": [
+    {
+      "stageId": 1,
+      "stageName": "Anonymous",
+      "label": "Reach",
+      "definition": "Individuals reached through media/activation touchpoints with no or minimal identifiable data.",
+      "primaryObjectives": ["Maximize reach", "Capture identifiers (where possible)", "Drive first meaningful engagement"],
+      "typicalSignals": ["Impressions", "Clicks/views", "Event footfall without identification"],
+      "keyAttributesForSubSegmentation": [
+        "sourceOfAcquisition.channel",
+        "content.narrativeCta",
+        "occupation",
+        "occasionsOfEnergy",
+        "location",
+        "purposeOfEnergy"
+      ]
+    },
+    {
+      "stageId": 2,
+      "stageName": "New Recruit & Engagement",
+      "label": "Identify, Enrich, Engage",
+      "definition": "People with partial identity/attributes collected and ongoing engagement, but not yet confirmed buyers (or purchase not yet linked).",
+      "primaryObjectives": ["Identify", "Enrich profiles", "Increase engagement", "Trigger first purchase"],
+      "typicalSignals": ["Profile creation/lead capture", "Repeated content interactions", "Participation in campaigns/activations"],
+      "keyAttributesForSubSegmentation": [
+        "sourceOfAcquisition.channel",
+        "content.narrativeCta",
+        "occupation",
+        "occasionsOfEnergy",
+        "location",
+        "purposeOfEnergy"
+      ]
+    },
+    {
+      "stageId": 3,
+      "stageName": "Purchase, Repeat & Loyal",
+      "definition": "Customers with confirmed purchase history; may include repeat buyers and loyal customers.",
+      "primaryObjectives": ["Increase repeat rate", "Grow basket/quantity", "Build loyalty", "Optimize channel/store conversion"],
+      "typicalSignals": ["First purchase", "2nd/3rd purchase", "Loyal behavior"],
+      "keyAttributesForSubSegmentation": [
+        "purchase.firstPurchase.sku",
+        "purchase.firstPurchase.quantity",
+        "purchase.firstPurchase.timeOfPurchase",
+        "purchase.firstPurchase.placeOfPurchase",
+        "purchase.repeatPurchaseCount",
+        "purchase.loyaltyStatus",
+        "location",
+        "occupation",
+        "occasionsOfEnergy",
+        "purposeOfEnergy"
+      ]
+    },
+    {
+      "stageId": 4,
+      "stageName": "Lapsed",
+      "definition": "Previously active/purchasing customers who have stopped engaging or purchasing for a period; focus on recency.",
+      "primaryObjectives": ["Win-back", "Reactivation", "Understand churn drivers"],
+      "typicalSignals": ["No recent engagement/purchase", "Recency drop"],
+      "keyAttributesForSubSegmentation": ["lastActive", "location", "sourceOfAcquisition.channel", "purchaseHistorySummary"]
+    }
+  ],
+  "attributeSchema": {
+    "sourceOfAcquisition": {
+      "field": "channel",
+      "type": "categorical",
+      "exampleValues": ["Campaign", "CVS Scan Bill", "Activation", "Húc Fest", "Húc Tour", "KOL", "null"]
+    },
+    "content": {
+      "field": "narrativeCta",
+      "type": "categorical",
+      "description": "Which content narrative (online) or activity zone (offline) drove engagement.",
+      "exampleValues": ["Content Narrative (Online)", "Activity Zone (Offline)"]
+    },
+    "occupation": {
+      "type": "categorical",
+      "exampleValues": ["Truck/Taxi Driver", "Worker", "Student", "Office-Worker", "etc."]
+    },
+    "occasionsOfEnergy": {
+      "type": "categorical",
+      "exampleValues": ["Work late", "Afternoon slump", "Study", "Sport", "Drive", "Social"]
+    },
+    "location": {
+      "type": "categorical",
+      "exampleValues": ["Hanoi", "HCMC", "Can Tho", "Da Nang", "Nha Trang", "Hai Phong", "etc."]
+    },
+    "purposeOfEnergy": {
+      "type": "categorical",
+      "exampleValues": ["Focus", "Physical", "Hustle"]
+    },
+    "purchase": {
+      "firstPurchase": {
+        "sku": {
+          "type": "categorical",
+          "exampleValues": ["RB Gold", "RB Extra", "RB Thai"]
+        },
+        "quantity": { "type": "numeric" },
+        "timeOfPurchase": {
+          "type": "categorical",
+          "description": "Exact date & time bucketed into dayparts.",
+          "exampleValues": ["Early Morning", "Morning", "Noon", "Evening", "Night"]
+        },
+        "placeOfPurchase": {
+          "type": "categorical",
+          "exampleValues": ["Circle K", "7-Eleven", "GS25", "K-mart", "etc."]
+        }
+      },
+      "repeatPurchaseCount": {
+        "type": "numeric",
+        "description": "Repeat purchases such as 2nd, 3rd."
+      },
+      "loyaltyStatus": {
+        "type": "categorical",
+        "exampleValues": ["Loyal", "Not loyal/unknown"]
+      }
+    },
+    "lastActive": {
+      "type": "datetime",
+      "description": "Most recent activity timestamp used for lapsed logic."
+    },
+    "purchaseHistorySummary": {
+      "type": "object",
+      "description": "Optional rollup: last SKU, last channel/store, frequency, average quantity."
+    }
+  },
+  "stageProgression": {
+    "targetDirection": "Stage 1 -> Stage 2 -> Stage 3; detect Stage 4 for win-back",
+    "recommendedTriggers": [
+      { "fromStage": 1, "toStage": 2, "trigger": "Capture identifier or sufficient attributes via engagement" },
+      { "fromStage": 2, "toStage": 3, "trigger": "Link first verified purchase event" },
+      { "fromStage": 3, "toStage": 4, "trigger": "No activity/purchase beyond a defined recency threshold" },
+      { "fromStage": 4, "toStage": 3, "trigger": "Reactivation purchase or renewed high-intent engagement" }
+    ]
+  }
+}

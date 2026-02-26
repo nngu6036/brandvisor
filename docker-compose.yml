@@ -1,0 +1,162 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: brandvisor-mongo
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME:-admin}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD:-adminpassword}
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  redis:
+    image: redis:7-alpine
+    container_name: brandvisor-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+
+  backend:
+    build:
+      context: ./backend
+      args:
+        SECRET_KEY: ${SECRET_KEY:-dev-secret-change-me}
+        MONGO_URI: ${MONGO_URI:-mongodb://admin:adminpassword@mongo:27017/brandvisor?authSource=admin}
+        OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+        OPENAI_KEY: ${OPENAI_KEY:-}
+        REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+        CELERY_BROKER_URL: ${CELERY_BROKER_URL:-redis://redis:6379/0}
+        CELERY_RESULT_BACKEND: ${CELERY_RESULT_BACKEND:-redis://redis:6379/1}
+        PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-http://localhost:5000}
+        CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+        LLM_MODEL: ${LLM_MODEL:-gpt-5.2-2025-12-11}
+        LLM_TEMPERATURE: ${LLM_TEMPERATURE:-0.2}
+        LLM_TIMEOUT: ${LLM_TIMEOUT:-60}
+        CREATIVE_API_TOKEN: ${CREATIVE_API_TOKEN:-}
+        CREATIVE_API_URL: ${CREATIVE_API_URL:-}
+    container_name: brandvisor-backend
+    restart: unless-stopped
+    depends_on:
+      - mongo
+      - redis
+    env_file:
+      - ./.env
+    ports:
+      - "5000:5000"
+    environment:
+      SECRET_KEY: ${SECRET_KEY:-dev-secret-change-me}
+      MONGO_URI: ${MONGO_URI:-mongodb://admin:adminpassword@mongo:27017/brandvisor?authSource=admin}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_KEY: ${OPENAI_KEY:-}
+      REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+      CELERY_BROKER_URL: ${CELERY_BROKER_URL:-redis://redis:6379/0}
+      CELERY_RESULT_BACKEND: ${CELERY_RESULT_BACKEND:-redis://redis:6379/1}
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-http://localhost:5000}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+      LLM_MODEL: ${LLM_MODEL:-gpt-5.2-2025-12-11}
+      LLM_TEMPERATURE: ${LLM_TEMPERATURE:-0.2}
+      LLM_TIMEOUT: ${LLM_TIMEOUT:-60}
+      CREATIVE_API_TOKEN: ${CREATIVE_API_TOKEN:-}
+      CREATIVE_API_URL: ${CREATIVE_API_URL:-}
+
+  celery-worker:
+    build:
+      context: ./backend
+      args:
+        SECRET_KEY: ${SECRET_KEY:-dev-secret-change-me}
+        MONGO_URI: ${MONGO_URI:-mongodb://admin:adminpassword@mongo:27017/brandvisor?authSource=admin}
+        OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+        OPENAI_KEY: ${OPENAI_KEY:-}
+        REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+        CELERY_BROKER_URL: ${CELERY_BROKER_URL:-redis://redis:6379/0}
+        CELERY_RESULT_BACKEND: ${CELERY_RESULT_BACKEND:-redis://redis:6379/1}
+        PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-http://localhost:5000}
+        CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+        LLM_MODEL: ${LLM_MODEL:-gpt-5.2-2025-12-11}
+        LLM_TEMPERATURE: ${LLM_TEMPERATURE:-0.2}
+        LLM_TIMEOUT: ${LLM_TIMEOUT:-60}
+        CREATIVE_API_TOKEN: ${CREATIVE_API_TOKEN:-}
+        CREATIVE_API_URL: ${CREATIVE_API_URL:-}
+    container_name: brandvisor-celery-worker
+    restart: unless-stopped
+    depends_on:
+      - backend
+      - redis
+      - mongo
+    env_file:
+      - ./.env
+    environment:
+      SECRET_KEY: ${SECRET_KEY:-dev-secret-change-me}
+      MONGO_URI: ${MONGO_URI:-mongodb://admin:adminpassword@mongo:27017/brandvisor?authSource=admin}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_KEY: ${OPENAI_KEY:-}
+      REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+      CELERY_BROKER_URL: ${CELERY_BROKER_URL:-redis://redis:6379/0}
+      CELERY_RESULT_BACKEND: ${CELERY_RESULT_BACKEND:-redis://redis:6379/1}
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-http://localhost:5000}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+      LLM_MODEL: ${LLM_MODEL:-gpt-5.2-2025-12-11}
+      LLM_TEMPERATURE: ${LLM_TEMPERATURE:-0.2}
+      LLM_TIMEOUT: ${LLM_TIMEOUT:-60}
+      CREATIVE_API_TOKEN: ${CREATIVE_API_TOKEN:-}
+      CREATIVE_API_URL: ${CREATIVE_API_URL:-}
+    command: ["celery", "-A", "app.celery_app.celery", "worker", "--loglevel=INFO"]
+
+  # Optional scheduled tasks
+  celery-beat:
+    build:
+      context: ./backend
+      args:
+        SECRET_KEY: ${SECRET_KEY:-dev-secret-change-me}
+        MONGO_URI: ${MONGO_URI:-mongodb://admin:adminpassword@mongo:27017/brandvisor?authSource=admin}
+        OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+        OPENAI_KEY: ${OPENAI_KEY:-}
+        REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+        CELERY_BROKER_URL: ${CELERY_BROKER_URL:-redis://redis:6379/0}
+        CELERY_RESULT_BACKEND: ${CELERY_RESULT_BACKEND:-redis://redis:6379/1}
+        PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-http://localhost:5000}
+        CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+        LLM_MODEL: ${LLM_MODEL:-gpt-5.2-2025-12-11}
+        LLM_TEMPERATURE: ${LLM_TEMPERATURE:-0.2}
+        LLM_TIMEOUT: ${LLM_TIMEOUT:-60}
+        CREATIVE_API_TOKEN: ${CREATIVE_API_TOKEN:-}
+        CREATIVE_API_URL: ${CREATIVE_API_URL:-}
+    container_name: brandvisor-celery-beat
+    restart: unless-stopped
+    depends_on:
+      - redis
+    env_file:
+      - ./.env
+    environment:
+      SECRET_KEY: ${SECRET_KEY:-dev-secret-change-me}
+      MONGO_URI: ${MONGO_URI:-mongodb://admin:adminpassword@mongo:27017/brandvisor?authSource=admin}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_KEY: ${OPENAI_KEY:-}
+      REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+      CELERY_BROKER_URL: ${CELERY_BROKER_URL:-redis://redis:6379/0}
+      CELERY_RESULT_BACKEND: ${CELERY_RESULT_BACKEND:-redis://redis:6379/1}
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-http://localhost:5000}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+      LLM_MODEL: ${LLM_MODEL:-gpt-5.2-2025-12-11}
+      LLM_TEMPERATURE: ${LLM_TEMPERATURE:-0.2}
+      LLM_TIMEOUT: ${LLM_TIMEOUT:-60}
+      CREATIVE_API_TOKEN: ${CREATIVE_API_TOKEN:-}
+      CREATIVE_API_URL: ${CREATIVE_API_URL:-}
+    command: ["celery", "-A", "app.celery_app.celery", "beat", "--loglevel=INFO"]
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: brandvisor-frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    env_file:
+      - ./.env
+    ports:
+      - "3000:3000"
+
+volumes:
+  mongo_data:
