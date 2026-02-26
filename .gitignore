@@ -12,6 +12,8 @@ logs/
 .env
 .env.*
 !.env.example
+*.pem
+*.key
 
 # Python
 __pycache__/
@@ -43,4 +45,3 @@ frontend/.pnpm-store/
 dist/
 build/
 .cache/
-
