@@ -108,7 +108,7 @@ services:
       LLM_TIMEOUT: ${LLM_TIMEOUT:-60}
       CREATIVE_API_TOKEN: ${CREATIVE_API_TOKEN:-}
       CREATIVE_API_URL: ${CREATIVE_API_URL:-}
-    command: ["celery", "-A", "app.celery_app.celery", "worker", "--loglevel=INFO"]
+    command: ["celery", "-A", "app.celery_worker.celery", "worker", "--loglevel=INFO"]
     networks:
       - brandvisor-backend-net
 
