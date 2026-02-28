@@ -42,4 +42,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 EXPOSE 5000
-CMD ["gunicorn", "-b", "0.0.0.0:5000", "wsgi:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:5000", "--worker-class", "gthread", "--threads", "8", "--timeout", "0", "wsgi:app"]
